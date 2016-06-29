@@ -2,14 +2,15 @@
 layout: page
 title: About
 permalink: /about/
+published: true
 ---
 
 Some information about you!
 
-### More Information
+### Sidon Duarte
 
-A place to include any other types of information that you'd like to include about yourself.
+I'm a Brasil based Software Developer, Big Data Addict, and eternal student creating useful software pieces for various necessities in my country. Let's start scrolling and learn more about me.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[sidoncd@gmail.com](mailto:sidoncd@gmail.com)
