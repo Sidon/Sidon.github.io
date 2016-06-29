@@ -6,7 +6,7 @@ published: true
 ---
 ### Sidon Duarte
 
-I'm a Brasil based Software Developer, Big Data Addict, and eternal student creating useful software pieces for various necessities in my country. Let's start scrolling and learn more about me.
+I'm a Brasil based Software Developer, Big Data Addict, and eternal student creating useful software pieces for various necessities in my country. Let's start navigate and learn more about me.
 
 ### Contact me
 
