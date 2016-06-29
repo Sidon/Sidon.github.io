@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Data Visualization Course (Coursera)
 On June 27, 2016, I enrolled in data management and visualization course via coursera (https://www.coursera.org/learn/data-visualization). In this course, the assignments must be submitted on a blog entry, after some hours of research, I chose Medium for this task, mainly by the cleaning and focus sensation.
@@ -12,4 +12,3 @@ My choose was the portion of GapMinder, and I’m particularly interested in the
 
 ## My Codbook
 ![codbook1.png]({{site.baseurl}}/_posts/codbook1.png)
-
