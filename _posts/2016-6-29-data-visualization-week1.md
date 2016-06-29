@@ -13,5 +13,5 @@ On this first assignment, the student has to choose one of five codebooks provid
 My choose was the portion of GapMinder, and I’m particularly interested in the topic: life expectancy x alcohol consumption x Gross Domestic Product per capita.
 
 ## My Codbook
-![codbook1.png]({{site.baseurl}}/_posts/codbook1.png)
+![codbook1.png](/_posts/codbook1.png)
 
