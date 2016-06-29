@@ -1,5 +1,6 @@
 ---
 published: true
+layout: post
 ---
 ## Data Visualization Course (Coursera)
 On June 27, 2016, I enrolled in data management and visualization course via coursera (https://www.coursera.org/learn/data-visualization). In this course, the assignments must be submitted on a blog entry, after some hours of research, I chose Medium for this task, mainly by the cleaning and focus sensation.
