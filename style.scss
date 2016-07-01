@@ -284,21 +284,16 @@ footer {
 }
 
 
-.post
-	table{
-    	width:100%;
-    	border-spacing: 0px;
-	}
+.post {
 
-	th{
-    	border:1px solid #22000220;
-        padding: 10px;
-	}
-
-	td{
-    	border:1px solid #000000;
-        padding: 10px;
-    }
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+}
+    
         
 }
 
