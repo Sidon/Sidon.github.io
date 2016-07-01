@@ -286,15 +286,14 @@ footer {
 
 .post {
 
-	table, th, td {
-    	border-collapse: collapse;
-        padding: 5px;
-        border: 1px solid black;
-	}
-	td {
-		border: 1px solid black;
-	}
-        
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+}
+
 }
 
 
