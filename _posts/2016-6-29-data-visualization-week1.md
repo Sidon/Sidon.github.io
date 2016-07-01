@@ -15,8 +15,8 @@ My choose was the portion of GapMinder, and I’m particularly interested in the
 ## My Codbook
 ![codbook1.png](/images/codebook1.png)
 
-| Option | Description |
-| ------ | ----------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
+| Item | Description | Price |
+| --- | --- | ---: |
+| item1 | item1 description | 1.00 |
+| item2 | item2 description | 100.00 |
+{:.mbtablestyle}
