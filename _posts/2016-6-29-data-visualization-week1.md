@@ -9,8 +9,13 @@ On June 27, 2016, I enrolled in data management and visualization course via cou
 ## Assignment 1: 
 On this first assignment, the student has to choose one of five codebooks provided and two topics on it. This is my submission.
 
-## My chosen dataset and topics: 
-My choose was the portion of GapMinder, and I’m particularly interested in the topic: life expectancy x alcohol consumption x Gross Domestic Product per capita.
+## Step 1: Choose a data set that you would like to work with.
+After reviewing the five provided codebooks, I have chosen the "portion of' [GapMinder](https://d396qusza40orc.cloudfront.net/phoenixassets/data-management-visualization/GapMinder%20Codebook%20.pdf), The main reason for my interest in this data set was because of the global context, especially, in regarding health data. 
+
+## Step 2: Identify a specific topic of interest
+I’m particularly interested in the topic: alcohol consumption.
+
+
 
 ## My Codbook
 
