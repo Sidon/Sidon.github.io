@@ -14,25 +14,8 @@ My choose was the portion of GapMinder, and I’m particularly interested in the
 
 ## My Codbook
 ![codbook1.png](/images/codebook1.png)
-<style>
-table{
-    border-collapse: collapse;
-    border-spacing: 0;
-    border:2px solid #ff0000;
-}
-
-th{
-    border:2px solid #000000;
-}
-
-td{
-    border:1px solid #000000;
-}
-</style> 
-
 
 | Item | Description | Price |
 | --- | --- | ---: |
 | item1 | item1 description | 1.00 |
 | item2 | item2 description | 100.00 |
-{:.table}
