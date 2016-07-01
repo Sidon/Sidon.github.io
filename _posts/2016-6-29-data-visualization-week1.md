@@ -15,7 +15,8 @@ My choose was the portion of GapMinder, and I’m particularly interested in the
 ## My Codbook
 ![codbook1.png](/images/codebook1.png)
 
-| Item | Description | Price |
-| --- | --- | ---: |
-| item1 | item1 description | 1.00 |
-| item2 | item2 description | 100.00 |
+| Variable Name   	| Description of Indicator                                                                                                                                                	| Main Source                                                                                                                                        	|
+|-----------------	|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------	|
+| incomeperperson 	| 2010 Gross Domestic Product per capita in constant 2000 US$. The inflation but not the differences in the cost of living between countries has been taken into account. 	| World Bank Work Development Indicators                                                                                                             	|
+| alcconsumption  	| 2002 breast cancer new cases per 100,000 female Number of new cases of breast cancer in 100,000 female residents during the certain year.                               	| WHO                                                                                                                                                	|
+| lifeexpectancy  	| 2011 life expectancy at birth (years) The average number of years a newborn child would live if current mortality patterns were to stay the same.                       	| 1. Human Mortality Database, 2. World Population Prospects; 3. Publications and files by; history prof. James C Riley; 4. Human Lifetable Database 	|
