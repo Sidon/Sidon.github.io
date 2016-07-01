@@ -13,6 +13,7 @@ On this first assignment, the student has to choose one of five codebooks provid
 My choose was the portion of GapMinder, and I’m particularly interested in the topic: life expectancy x alcohol consumption x Gross Domestic Product per capita.
 
 ## My Codbook
+
 | Variable Name   | Description of Indicator                                                                                                                                                | Main Source                                                                                                                                        |
 |-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | incomeperperson | 2010 Gross Domestic Product per capita in constant 2000 US$. The inflation but not the differences in the cost of living between countries has been taken into account. | World Bank Work Development Indicators                                                                                                             |
