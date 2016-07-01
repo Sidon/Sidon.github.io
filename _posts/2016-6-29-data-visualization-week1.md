@@ -6,22 +6,23 @@ published: true
 
 On June 27, 2016, I enrolled in data management and visualization course via coursera (<https://www.coursera.org/learn/data-visualization>). In this course, the assignments must be submitted on a blog entry, after some hours of research, I chose Github for this task, mainly by convenience and the cleaning and focus sensation.
 
-## Assignment 1: 
+## Assignment 1:
 On this first assignment, the student has to choose one of five codebooks provided and two topics on it. This is my submission.
 
 ## Step 1: Choose a data set that you would like to work with.
-After reviewing the five provided codebooks, I have chosen the "portion of' [GapMinder](https://d396qusza40orc.cloudfront.net/phoenixassets/data-management-visualization/GapMinder%20Codebook%20.pdf), The main reason for my interest in this data set was because of the global context, especially, in regarding health data. 
+After reviewing the five provided codebooks, I have chosen the "portion of' [GapMinder](https://d396qusza40orc.cloudfront.net/phoenixassets/data-management-visualization/GapMinder%20Codebook%20.pdf), The main reason for my interest in this data set was because of the global context, especially, in regarding health data.
 
-## Step 2: Identify a specific topic of interest
-I’m particularly interested in the topic: alcohol consumption.
+## Step 2: Identify a specific topic of interest.
+As I'm not that young anymore, I have been seeing some of my friends died of many causes. One of them has been drawing my attention: complications resulting from excessive alcohol consumption.
+I envisaged the possibility of investigating the correlation between the expectancy life and the alcohol consumption when I  analysed the Gapminder codebook.
 
-
-
-## My Codbook
+## Step 3: Prepare a codebook of your own.
+Although the portion of Gapminder provided, is a little piece, I chose to cut the only variables that I think I will use. This is presented bellow:
 
 | Variable Name   | Description of Indicator | Main Source |
 | incomeperperson | 2010 Gross Domestic Product per capita in constant 2000 US$. The inflation but not the differences in the cost of living between countries has been taken into account. | World Bank Work Development Indicators                                                                                                                              |
 | alcconsumption  | 2002 breast cancer new cases per 100,000 female Number of new cases of breast cancer in 100,000 female residents during the certain year. | WHO                                              |
 | lifeexpectancy  | 2011 life expectancy at birth (years) The average number of years a newborn child would live if current mortality patterns were to stay the same.                       | 1. Human Mortality Database; 2. World Population Prospects; 3. Publications and files by: history prof. James C Riley; 4. Human Lifetable Database |
 
+# Step 4: Identify a second topic that you would like to explore in terms of its association with your original topic.
 
