@@ -28,7 +28,6 @@ Although the portion of Gapminder provided, is a little piece, I chose to cut th
 | lifeexpectancy  | 2011 life expectancy at birth (years) The average number of years a newborn child would live if current mortality patterns were to stay the same.                       | 1. Human Mortality Database; 2. World Population Prospects; 3. Publications and files by: history prof. James C Riley; 4. Human Lifetable Database |
 
 # Step 4: Identify a second topic that you would like to explore in terms of its association with your original topic.
-Since first moment that I looked the Gapminder codebook, I saw the possibility to explore the possible relationship between alcohol consumption  and life expectancy, and, in addition the possible correlation between Socioeconomic status and alcohol consumption.
+Since first moment that I looked the Gapminder codebook, I saw the possibility to explore the possible relationship between alcohol consumption and life expectancy, and, in addition the possible correlation between Socioeconomic status and alcohol consumption.
 
-xdfvsdfsdfsdfsdfsfs
-sdfsdfsd
+
