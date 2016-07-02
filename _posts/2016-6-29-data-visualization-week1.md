@@ -63,5 +63,11 @@ The level of alcohol consumption of a country might be directly related to expec
 ### Secondary hypothesis:
 Socioeconomic status and income levels have a direct correlation with the level of alcohol consumption of a country.
 
+## Reference
+[1] Shkolnikov, V.; McKee, M.; Leon, D. Changes in life expectancy in Russia in the mid-1990s. The Lancet, v. 357, n. 9260, p. 917-921, 2001. 
+
+[2] Trevisan, M. et al. Drinking Pattern and Mortality:. Annals of Epidemiology, v. 11, n. 5, p. 312-319, 2001. 
+
+[3] Streppel, M. et al. Long-term wine consumption is related to cardiovascular mortality and life expectancy independently of moderate alcohol intake: the Zutphen Study. Journal of Epidemiology & Community Health, v. 63, n. 7, p. 534-540, 2009. 
 
 
