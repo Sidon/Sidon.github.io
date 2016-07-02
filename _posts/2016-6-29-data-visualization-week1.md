@@ -55,3 +55,6 @@ This study was made in Finland and based on the "Finnish Death Register" that in
 According to the results, 6% of all deaths were alcohol related. These deaths were responsible for a 2 year loss in life expectancy at age 15 years among men and 0.4 years among women.
 
 ## Step 7: Based on your literature review, develop a hypothesis about what you believe the association might be between these topics. Be sure to integrate the specific variables you selected into the hypothesis.
+The observing the open sections of these articles is enough to establish the correlation between alcohol consumption and life expectancy
+
+
