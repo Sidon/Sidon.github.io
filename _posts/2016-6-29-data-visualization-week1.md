@@ -4,7 +4,7 @@ title: Data Visualization - Week 1
 published: true
 ---
 
-My name is Sidon Duarte, I am a Developer from Brazil, in addition, I am a data science lover, On June 27, 2016, I enrolled in [Data Management and Visualization](https://www.coursera.org/learn/data-visualization) course by [Wesleyan University](http://www.wesleyan.edu/), via [coursera](https://www.coursera.org/). In this course, the assignments must be submitted on a blog entry, after some hours of research, I chose Github for this task, mainly by convenience and the cleaning and focus sensation.
+My name is Sidon Duarte, I am a Developer from Brazil, in addition, I am a data science lover, on June 27, 2016, I enrolled in [Data Management and Visualization](https://www.coursera.org/learn/data-visualization) course by [Wesleyan University](http://www.wesleyan.edu/), via [coursera](https://www.coursera.org/). In this course, the assignments must be submitted on a blog entry, after some hours of research, I chose Github for this task, mainly by convenience and the cleaning and focus sensation.
 
 ## About the course:
 This is the first course of the five in the [Data Analysis and Interpretation Specialization](https://www.coursera.org/specializations/data-analysis) detailed information about it can be seeing [here](https://www.coursera.org/learn/data-visualization#).
@@ -27,10 +27,15 @@ Although the portion of Gapminder provided, is a little piece, I chose to cut th
 | alcconsumption  | 2002 breast cancer new cases per 100,000 female Number of new cases of breast cancer in 100,000 female residents during the certain year. | WHO                                              |
 | lifeexpectancy  | 2011 life expectancy at birth (years) The average number of years a newborn child would live if current mortality patterns were to stay the same.                       | 1. Human Mortality Database; 2. World Population Prospects; 3. Publications and files by: history prof. James C Riley; 4. Human Lifetable Database |
 
-# Step 4: Identify a second topic that you would like to explore in terms of its association with your original topic.
+## Step 4: Identify a second topic that you would like to explore in terms of its association with your original topic.
 Since the first moment that I looked the Gapminder codebook, I saw the possibility to explore the possible relationship between alcohol consumption and life expectancy, and, also, the possible correlation between Socioeconomic status and alcohol consumption.
 
-## Literature Revision
+## Step 5: Add questions/items/variables documenting this second topic to your personal codebook.
+Ok, as I mentioned in Step 4, since first look on the Gapminder codebook, I had thought about the second topic. Thus, the codebook was done with this in mind.
+
+
+## Step 6: Literature Review.
+My original plan was to do an in-depth investigation of the chosen topics. Due to the short time and the fact that most articles are accessible only through pay assign, I  opted by to select some papers and to analyse their abstracts and the open sections (frequently, "results'' and "conclusions"). Three of these papers are summarised bellow. 
 
 ### Changes in life expectancy in Russia in the mid-1990s [1]
 In this article, the authors state that the life expectancy in Russia has been changing due to the intricate pattern of trends in different causes of death, where some of which have their origins long in the past and others that results for contemporary circumstances.  In the words of authors, the study provides further support for the view that alcohol has played an important part in the fluctuations int life expectancy in Russia in the 1990s.
@@ -43,5 +48,5 @@ This study was made in Finland and was based on the
 The Finnish death register that includes information on both the underlying and contributory causes of death and it yields an individual-level estimate of the contribution of alcohol to mortality. The data for 1987-1993 are used to examine alcohol-related mortality by cause of death.
 According to the results, 6% of all deaths were alcohol related. These deaths were responsible for a 2 year loss in life expectancy at age 15 years among men and 0.4 years among women.
 
-
+## Step 7: STEP 7. Based on your literature review, develop a hypothesis about what you believe the association might be between these topics. Be sure to integrate the specific variables you selected into the hypothesis.
 
