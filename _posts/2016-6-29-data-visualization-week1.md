@@ -30,4 +30,18 @@ Although the portion of Gapminder provided, is a little piece, I chose to cut th
 # Step 4: Identify a second topic that you would like to explore in terms of its association with your original topic.
 Since the first moment that I looked the Gapminder codebook, I saw the possibility to explore the possible relationship between alcohol consumption and life expectancy, and, also, the possible correlation between Socioeconomic status and alcohol consumption.
 
+## Literature Revision
+
+### Changes in life expectancy in Russia in the mid-1990s [1]
+In this article, the authors state that the life expectancy in Russia has been changing due to the intricate pattern of trends in different causes of death, where some of which have their origins long in the past and others that results for contemporary circumstances.  In the words of authors, the study provides further support for the view that alcohol has played an important part in the fluctuations int life expectancy in Russia in the 1990s.
+
+### Drinking Pattern and Mortality:: The Italian Risk Factor and Life Expectancy Pooling Project [2]
+The purpose of this article is exactly to analyze the relationship between a particular aspect of drink pattern and a risk of all-cause and specific-cause mortality The results presented in this paper indicate that drinking patterns may have important health implications, impacting directly on the life expectancy.
+
+### Alcohol-related mortality by age and sex and its impact on life expectancyEstimates based on the Finnish death register
+This study was made in Finland and was based on the
+The Finnish death register that includes information on both the underlying and contributory causes of death and it yields an individual-level estimate of the contribution of alcohol to mortality. The data for 1987-1993 are used to examine alcohol-related mortality by cause of death.
+According to the results, 6% of all deaths were alcohol related. These deaths were responsible for a 2 year loss in life expectancy at age 15 years among men and 0.4 years among women.
+
+
 
