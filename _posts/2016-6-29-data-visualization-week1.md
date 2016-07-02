@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data Visualization - Week1
+title: Data Visualization - Week 1
 published: true
 ---
 
