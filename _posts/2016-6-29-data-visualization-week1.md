@@ -36,7 +36,7 @@ Ok, as I mentioned in Step 4, since first look on the Gapminder codebook, I had 
 
 ## Step 6: Literature Review.
 I did do my research in the Google Scholar with the string: "alcohol consumption life expectancy". Bellow the image of this search is showed.
-[Search](/images/search1.png)
+[Search]({/images/search1.png})
 
 My original plan was to do an in-depth investigation of the chosen topics. Due to the short time and the fact that most articles are accessible only through pay assign, I  opted by to select some papers and to analyze their abstracts and the open sections (frequently, "results'' and "conclusions"). Three of these papers are summarized bellow. 
 
