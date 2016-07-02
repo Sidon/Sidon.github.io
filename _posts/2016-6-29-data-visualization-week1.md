@@ -38,7 +38,7 @@ In this article, the authors state that the life expectancy in Russia has been c
 ### Drinking Pattern and Mortality:: The Italian Risk Factor and Life Expectancy Pooling Project [2]
 The purpose of this article is exactly to analyze the relationship between a particular aspect of drink pattern and a risk of all-cause and specific-cause mortality The results presented in this paper indicate that drinking patterns may have important health implications, impacting directly on the life expectancy.
 
-### Alcohol-related mortality by age and sex and its impact on life expectancyEstimates based on the Finnish death register
+### Alcohol-related mortality by age and sex and its impact on life expectancyEstimates based on the Finnish death register [3]
 This study was made in Finland and was based on the
 The Finnish death register that includes information on both the underlying and contributory causes of death and it yields an individual-level estimate of the contribution of alcohol to mortality. The data for 1987-1993 are used to examine alcohol-related mortality by cause of death.
 According to the results, 6% of all deaths were alcohol related. These deaths were responsible for a 2 year loss in life expectancy at age 15 years among men and 0.4 years among women.
