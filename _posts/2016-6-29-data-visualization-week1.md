@@ -36,7 +36,7 @@ Ok, as I mentioned in Step 4, since first look on the Gapminder codebook, I had 
 
 ## Step 6: Literature Review.
 I did do my research in the Google Scholar with the string: "alcohol consumption life expectancy". Bellow the image of this search is showed.
-[Search]({/images/search1.png})
+![Search](/images/search1.png)
 
 My original plan was to do an in-depth investigation of the chosen topics. Due to the short time and the fact that most articles are accessible only through pay assign, I  opted by to select some papers and to analyze their abstracts and the open sections (frequently, "results'' and "conclusions"). Three of these papers are summarized bellow. 
 
@@ -51,6 +51,3 @@ This study was made in Finland and based on the "Finnish Death Register" that in
 According to the results, 6% of all deaths were alcohol related. These deaths were responsible for a 2 year loss in life expectancy at age 15 years among men and 0.4 years among women.
 
 ## Step 7: Based on your literature review, develop a hypothesis about what you believe the association might be between these topics. Be sure to integrate the specific variables you selected into the hypothesis.
-
-
-
