@@ -284,19 +284,18 @@ footer {
 }
 
 
-.post {
-  table {
-    padding: 6px;
-  }
-  table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-  }
-  th, td {
-    padding: 8px;
-  }
+.post table {
+  padding: 6px;
 }
+.post table, .post th, .post td {
+  border-collapse: collapse;
+}
+.post th, .post td {
+  padding: 8px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
 
+}
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
