@@ -4,7 +4,10 @@ title: Data Visualization - Week1
 published: true
 ---
 
-On June 27, 2016, I enrolled in data management and visualization course via coursera (<https://www.coursera.org/learn/data-visualization>). In this course, the assignments must be submitted on a blog entry, after some hours of research, I chose Github for this task, mainly by convenience and the cleaning and focus sensation.
+My name is Sidon Duarte, I am a Developer from Brazil, in addition, I am a data science lover, On June 27, 2016, I enrolled in [Data Management and Visualization](https://www.coursera.org/learn/data-visualization) course by [Wesleyan University](http://www.wesleyan.edu/), via [coursera](https://www.coursera.org/). In this course, the assignments must be submitted on a blog entry, after some hours of research, I chose Github for this task, mainly by convenience and the cleaning and focus sensation.
+
+## About the course:
+This is the first course of the five in the [Data Analysis and Interpretation Specialization](https://www.coursera.org/specializations/data-analysis) detailed information about it can be seeing [here](https://www.coursera.org/learn/data-visualization#).
 
 ## Assignment 1:
 On this first assignment, the student has to choose one of five codebooks provided and two topics on it. This is my submission.
@@ -25,4 +28,5 @@ Although the portion of Gapminder provided, is a little piece, I chose to cut th
 | lifeexpectancy  | 2011 life expectancy at birth (years) The average number of years a newborn child would live if current mortality patterns were to stay the same.                       | 1. Human Mortality Database; 2. World Population Prospects; 3. Publications and files by: history prof. James C Riley; 4. Human Lifetable Database |
 
 # Step 4: Identify a second topic that you would like to explore in terms of its association with your original topic.
+Since first moment that I looked the Gapminder codebook, I saw the possibility to explore the possible relationship between alcohol consumption  and life expectancy, and, in addition the possible correlation between Socioeconomic status and alcohol consumption.
 
