@@ -32,7 +32,7 @@ Although the portion of Gapminder provided, is a little piece, I chose to cut th
 Since the first moment that I looked the Gapminder codebook, I saw the possibility to explore the possible relationship between alcohol consumption and life expectancy, and, also, the possible correlation between Socioeconomic status and alcohol consumption.
 
 ## Research Question:
-There is a direct relationship between the consumption of alcohol and life expectancy?
+There is a direct relationship between the alcohol consumption and life expectancy?
 
 ## Step 5: Add questions/items/variables documenting this second topic to your personal codebook.
 Ok, as I mentioned in Step 4, since first look on the Gapminder codebook, I had thought about the second topic. Thus, the codebook was done with this in mind.
