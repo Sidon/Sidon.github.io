@@ -19,6 +19,7 @@ After reviewing the five provided codebooks, I have opted the "portion of' [GapM
 As I'm not that young anymore, I have been seeing some of my friends died of many causes. One of them has been drawing my attention: complications resulting from excessive alcohol consumption.
 I envisaged the possibility of investigating the correlation between the expectancy life and the alcohol consumption when I  analyzed the Gapminder codebook.
 
+
 ## Step 3: Prepare a codebook of your own.
 Although the portion of Gapminder provided, is a little piece, I chose to cut the only variables that I think I will use. This is presented bellow:
 
@@ -30,9 +31,13 @@ Although the portion of Gapminder provided, is a little piece, I chose to cut th
 ## Step 4: Identify a second topic that you would like to explore in terms of its association with your original topic.
 Since the first moment that I looked the Gapminder codebook, I saw the possibility to explore the possible relationship between alcohol consumption and life expectancy, and, also, the possible correlation between Socioeconomic status and alcohol consumption.
 
+## Research Question:
+There is a direct relationship between the consumption of alcohol and life expectancy?
+
+
+
 ## Step 5: Add questions/items/variables documenting this second topic to your personal codebook.
 Ok, as I mentioned in Step 4, since first look on the Gapminder codebook, I had thought about the second topic. Thus, the codebook was done with this in mind.
-
 
 ## Step 6: Literature Review.
 I did do my research in the Google Scholar with the string: "alcohol consumption life expectancy". Bellow the image of this search is showed.
@@ -68,6 +73,4 @@ Socioeconomic status and income levels have a direct correlation with the level 
 
 [2] Trevisan, M. et al. Drinking Pattern and Mortality:. Annals of Epidemiology, v. 11, n. 5, p. 312-319, 2001. 
 
-[3] Streppel, M. et al. Long-term wine consumption is related to cardiovascular mortality and life expectancy independently of moderate alcohol intake: the Zutphen Study. Journal of Epidemiology & Community Health, v. 63, n. 7, p. 534-540, 2009. 
-
-
+[3] Streppel, M. et al. Long-term wine consumption is related to cardiovascular mortality and life expectancy independently of moderate alcohol intake: the Zutphen Study. Journal of Epidemiology & Community Health, v. 63, n. 7, p. 534-540, 2009.
