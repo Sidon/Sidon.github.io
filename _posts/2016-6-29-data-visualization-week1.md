@@ -34,8 +34,6 @@ Since the first moment that I looked the Gapminder codebook, I saw the possibili
 ## Research Question:
 There is a direct relationship between the consumption of alcohol and life expectancy?
 
-
-
 ## Step 5: Add questions/items/variables documenting this second topic to your personal codebook.
 Ok, as I mentioned in Step 4, since first look on the Gapminder codebook, I had thought about the second topic. Thus, the codebook was done with this in mind.
 
