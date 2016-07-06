@@ -1,3 +1,9 @@
+---
+layout: post
+title: Data Visualization - Week 2
+published: true
+---
+
 This is second week of the course, in this week the students have to chose the language/tool to work (SaS or Python) and to developer th first program based on the their project, my chosse was Python and bellow i presented the assignment.
 
 
