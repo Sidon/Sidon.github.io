@@ -21,7 +21,6 @@ lines 26-27
 ````python    
 print ('Number of observations (rows): ',len(data1))
 print ('Number of variables (columns): ',len(data1.columns))
-
 Number of observations (rows):  213
 Number of variables (columns):  4
 ````
