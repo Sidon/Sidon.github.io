@@ -95,8 +95,6 @@ Name: ipp, dtype: float64
 Line 31 
 
 ```python 
-
-```
 0       0.03
 1       7.29
 2       0.69
@@ -159,7 +157,7 @@ Line 31
 211     3.56
 212     4.96
 Name: ac, dtype: float64
-
+```
 
 Line 32
 
