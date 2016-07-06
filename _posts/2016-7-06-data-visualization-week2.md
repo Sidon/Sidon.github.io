@@ -14,7 +14,7 @@ The picture bellow is the my code:
 
 ![Code](/images/getdata1.png)
 
-## The output and explanation (on the code):
+## The output and explanation:
 
 lines 26-27 
 
