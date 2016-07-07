@@ -100,7 +100,7 @@ ac             26
 le             22
 ````
 
-### Line 39
+### Line 39 (ipp nominal frequencys)
 This line shows the nominal values of frequency of each observation related to the variable ipp.
 
 ```python
@@ -169,7 +169,7 @@ print (counts['ipp'])
 Name: ipp, dtype: float64
 ```
 
-### Line 40
+### Line 40 (ac nominal frequencys)
 This line shows the nominal values of frequency of each observation related to the variable ac.
 
 ```python
@@ -238,7 +238,7 @@ print (counts['ac'])
 Name: ac, dtype: float64
 ```
 
-### Line 41
+### Line 41 (le nominal frequencys)
 This line shows the nominal values of frequency of each observation related to the variable le.
 
 ```python
