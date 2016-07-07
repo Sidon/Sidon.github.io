@@ -10,6 +10,7 @@ This is the second week of the course, in this week the students have to choose 
 On this assignment, the program must load the dataset into memory and calculate the frequency distributions for chosen variables.
 
 Bellow there is my code:
+
 ````python
 1 # coding: utf-8
 2
@@ -61,6 +62,7 @@ Bellow there is my code:
 48 print (prcnts['ac'])
 49 print (prcnts['le'])
 ````
+
 ## The output and explanation:
 
 #### Line 21 (Data set info)
@@ -81,6 +83,7 @@ le         213 non-null object
 dtypes: object(4)
 memory usage: 6.7+ KB
 ````
+
 #### Line 29 (Data missing)
 Though the information showed by the function info() in line 21 might appear that there is not missing data, this is not true, because missing information in this dataset is a space (a non-null value), thus in the lines, 23-29 is showed the number of missing data for  each variable by value_counts() function.
 
@@ -96,8 +99,10 @@ ipp            23
 ac             26
 le             22
 ````
+
 ### Line 39
 This line shows the nominal values of frequency of each observation related to the variable ipp.
+
 ```python
 print (counts['ipp'])
 0               NaN
