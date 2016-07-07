@@ -4,30 +4,102 @@ title: Data Visualization - Week 2
 published: true
 ---
 
-This is second week of the course, in this week the students have to chose the language/tool to work (SaS or Python) and to developer th first program based on the their project, my chosse was Python and bellow i presented the assignment.
-
+This is the second week of the course, in this week the students have to choose the language/tool to work (SaS or Python) and develop the first program based on their project, my chose was [Python](https://www.python.org/) and bellow I presented the assignment.
 
 ## Assignment 2:
-On the this assignment, the program must load the dataset into memory and calculating the frequency distributions for chosen variables.
+On this assignment, the program must load the dataset into memory and calculate the frequency distributions for chosen variables.
 
-The picture bellow is the my code:
-
-![Code](/images/getdata1.png)
-
+Bellow there is my code:
+````python
+1 # coding: utf-8
+2
+3 import pandas as pd
+4 import numpy
+5 from collections import OrderedDict
+6 from tabulate import tabulate, tabulate_formats
+7
+8 # Dictionares
+9 counts = OrderedDict()
+10 prcnts = OrderedDict()
+11
+12 # Load from CSV
+13 data1 = pd.read_csv('gapminder.csv', skip_blank_lines=True,
+14                     usecols=['country','incomeperperson',
+15                      'alcconsumption', 'lifeexpectancy'])
+16  
+17 # Rename columns for clarity                                    
+18 data1.columns = ['country','ipp','ac','le']
+19
+20 # Show info about pandas dataframe
+21 data1.info()
+22
+23 # Counts missing entry in ipp, ac and le
+24 from tabulate import tabulate, tabulate_formats
+25 missings = [['Var', 'Missings']]
+26 for var in ('ipp', 'ac', 'le'):
+27     missings.append([var, data1[var].value_counts()[' ']])
+28    
+29 print (tabulate(missings, headers="firstrow"))
+30
+31 # Count each variable (coerce’, then invalid parsing will be set as NaN)
+32 for dt in ('ipp','ac', 'le') :
+33     counts[dt] = pd.to_numeric(data1[dt], 'errors=coerce')
+34
+35 # Count each variable (coerce’, then invalid parsing will be set as NaN)
+36 for dt in ('ipp','ac', 'le') :
+37     counts[dt] = pd.to_numeric(data1[dt], 'errors=coerce')
+38
+39 print (counts['ipp'])
+40 print (counts['ac'])
+41 print (counts['le'])
+42
+43 # percent each variable
+44 for dt in ('ipp','ac', 'le') :
+45     prcnts[dt] = data1[dt].value_counts(sort=False, normalize=True)
+46
+47 print (prcnts['ipp'])
+48 print (prcnts['ac'])
+49 print (prcnts['le'])
+````
 ## The output and explanation:
 
-lines 26-27 
+#### Line 21 (Data set info)
+This line shows information about dataset, where:  
+ipp = incomeperperson  
+ac = alcconsumption  
+le = lifeexpectancy  
 
 ````python    
-print ('Number of observations (rows): ',len(data1))
-print ('Number of variables (columns): ',len(data1.columns))
-Number of observations (rows):  213
-Number of variables (columns):  4
+data1.info()
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 213 entries, 0 to 212
+Data columns (total 4 columns):
+country    213 non-null object
+ipp        213 non-null object
+ac         213 non-null object
+le         213 non-null object
+dtypes: object(4)
+memory usage: 6.7+ KB
 ````
+#### Line 29 (Data missing)
+Though the information showed by the function info() in line 21 might appear that there is not missing data, this is not true, because missing information in this dataset is a space (a non-null value), thus in the lines, 23-29 is showed the number of missing data for  each variable by value_counts() function.
 
-Line 30
+````python  
+missings = [['Var', 'Missings']]
+for var in ('ipp', 'ac', 'le'):
+    missings.append([var, data1[var].value_counts()[' ']])
 
-```python 
+print (tabulate(missings, headers="firstrow"))
+Var      Missings
+-----  ----------
+ipp            23
+ac             26
+le             22
+````
+### Line 39
+This line shows the nominal values of frequency of each observation related to the variable ipp.
+```python
+print (counts['ipp'])
 0               NaN
 1       1914.996551
 2       2231.993335
@@ -92,9 +164,11 @@ Line 30
 Name: ipp, dtype: float64
 ```
 
-Line 31 
+### Line 40
+This line shows the nominal values of frequency of each observation related to the variable ac.
 
-```python 
+```python
+print (counts['ac'])
 0       0.03
 1       7.29
 2       0.69
@@ -159,9 +233,11 @@ Line 31
 Name: ac, dtype: float64
 ```
 
-Line 32
+### Line 41
+This line shows the nominal values of frequency of each observation related to the variable le.
 
-```python 
+```python
+print (counts['le'])
 0      48.673
 1      76.918
 2      73.131
@@ -225,6 +301,3 @@ Line 32
 212    51.384
 Name: le, dtype: float64
 ```
-
-
-
