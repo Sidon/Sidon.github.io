@@ -510,5 +510,4 @@ print (prcnts['le'])
 75.62     0.004695
 61.061    0.004695
 Name: le, dtype: float64
-
 ```
