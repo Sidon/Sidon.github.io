@@ -96,7 +96,7 @@ ac             26
 le             22
 ````
 
-### Line 34 (ipp nominal frequency)
+#### Line 34 (ipp nominal frequency)
 This line shows the nominal values of frequency of each observation related to the variable ipp.
 
 ```python
@@ -165,7 +165,7 @@ print (counts['ipp'])
 Name: ipp, dtype: float64
 ```
 
-### Line 35 (ac nominal frequencys)
+#### Line 35 (ac nominal frequencys)
 This line shows the nominal values of frequency of each observation related to the variable ac.
 
 ```python
@@ -234,7 +234,7 @@ print (counts['ac'])
 Name: ac, dtype: float64
 ```
 
-### Line 36 (le nominal frequency)
+#### Line 36 (le nominal frequency)
 This line shows the nominal values of frequency of each observation related to the variable le.
 
 ```python
@@ -302,7 +302,8 @@ print (counts['le'])
 212    51.384
 Name: le, dtype: float64
 ```
-### Line 42 (ipp frequency expressed as a percentage)
+
+#### Line 42 (ipp frequency expressed as a percentage)
 This line shows the frequency values, of each observation related to the variable ipp, expressed as a percentage.
 
 ```python
@@ -371,7 +372,7 @@ print (prcnts['ipp'])
 Name: ipp, dtype: float64
 ```
 
-### Line 43 (ac frequency expressed as a percentage)
+#### Line 43 (ac frequency expressed as a percentage)
 This line shows the frequency values, of each observation related to the variable ac, expressed as a percentage.
 
 ```python
@@ -440,7 +441,7 @@ print (prcnts['ac'])
 Name: ac, dtype: float64
 ```
 
-### Line 44 (le frequency expressed as a percentage)
+#### Line 44 (le frequency expressed as a percentage)
 This line shows the frequency values, of each observation related to the variable le, expressed as a percentage.
 
 ```python
