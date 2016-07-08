@@ -13,63 +13,59 @@ Bellow there is my code:
 
 ````python
 1 # coding: utf-8
-2
-3 import pandas as pd
-4 import numpy
-5 from collections import OrderedDict
-6 from tabulate import tabulate, tabulate_formats
-7
-8 # Dictionares
-9 counts = OrderedDict()
-10 prcnts = OrderedDict()
-11
-12 # Load from CSV
-13 data1 = pd.read_csv('gapminder.csv', skip_blank_lines=True,
-14                     usecols=['country','incomeperperson',
-15                      'alcconsumption', 'lifeexpectancy'])
-16  
-17 # Rename columns for clarity                                    
-18 data1.columns = ['country','ipp','ac','le']
-19
-20 # Show info about pandas dataframe
-21 data1.info()
-22
-23 # Counts missing entry in ipp, ac and le
-24 from tabulate import tabulate, tabulate_formats
-25 missings = [['Var', 'Missings']]
-26 for var in ('ipp', 'ac', 'le'):
-27     missings.append([var, data1[var].value_counts()[' ']])
-28    
-29 print (tabulate(missings, headers="firstrow"))
-30
-31 # Count each variable (coerce’, then invalid parsing will be set as NaN)
-32 for dt in ('ipp','ac', 'le') :
-33     counts[dt] = pd.to_numeric(data1[dt], 'errors=coerce')
-34
-35 # Count each variable (coerce’, then invalid parsing will be set as NaN)
-36 for dt in ('ipp','ac', 'le') :
-37     counts[dt] = pd.to_numeric(data1[dt], 'errors=coerce')
-38
-39 print (counts['ipp'])
-40 print (counts['ac'])
-41 print (counts['le'])
-42
-43 # percent each variable
-44 for dt in ('ipp','ac', 'le') :
-45     prcnts[dt] = data1[dt].value_counts(sort=False, normalize=True)
-46
-47 print (prcnts['ipp'])
-48 print (prcnts['ac'])
-49 print (prcnts['le'])
+2 import pandas as pd
+3 import numpy
+4 from collections import OrderedDict
+5 from tabulate import tabulate, tabulate_formats
+6
+7 # Dictionaries
+8 counts = OrderedDict()
+9 prcnts = OrderedDict()
+10
+11 # Load from CSV
+12 data1 = pd.read_csv('gapminder.csv', skip_blank_lines=True,
+13                     usecols=['country','incomeperperson',
+14                              'alcconsumption', 'lifeexpectancy'])
+15
+16 # Rename columns for clarity
+17 data1.columns = ['country','ipp','ac','le']
+18
+19 # Show info about pandas dataframe
+20 data1.info()
+21
+22 # Counts missing entry in ipp, ac and le
+23 from tabulate import tabulate, tabulate_formats
+24 missings = [['Var', 'Missings']]
+25 for var in ('ipp', 'ac', 'le'):
+26     missings.append([var, data1[var].value_counts()[' ']])
+27
+28 print (tabulate(missings, headers="firstrow"))
+29
+30 # Count each variable (coerce’, then invalid parsing will be set as NaN)
+31 for dt in ('ipp','ac', 'le') :
+32     counts[dt] = pd.to_numeric(data1[dt], 'errors=coerce')
+33
+34 print (counts['ipp'])
+35 print (counts['ac'])
+36 print (counts['le'])
+37
+38 # each variable as percentage
+39 for dt in ('ipp','ac', 'le') :
+40     prcnts[dt] = data1[dt].value_counts(sort=False, normalize=True)
+41
+42 print (prcnts['ipp'])
+43 print (prcnts['ac'])
+44 print (prcnts['le'])
 ````
-
 ## The output and explanation:
 
-#### Line 21 (Data set info)
+#### Line 20 (Data set info)
 This line shows information about dataset, where:  
 ipp = incomeperperson  
 ac = alcconsumption  
 le = lifeexpectancy  
+
+Clique [here](https://sidon.github.io/data-visualization-week1/) seeing original names on the codebook.
 
 ````python    
 data1.info()
@@ -84,7 +80,7 @@ dtypes: object(4)
 memory usage: 6.7+ KB
 ````
 
-#### Line 29 (Data missing)
+#### Line 28 (Data missing)
 Though the information showed by the function info() in line 21 might appear that there is not missing data, this is not true, because missing information in this dataset is a space (a non-null value), thus in the lines, 23-29 is showed the number of missing data for  each variable by value_counts() function.
 
 ````python  
@@ -100,7 +96,7 @@ ac             26
 le             22
 ````
 
-### Line 39 (ipp nominal frequencys)
+### Line 34 (ipp nominal frequency)
 This line shows the nominal values of frequency of each observation related to the variable ipp.
 
 ```python
@@ -169,7 +165,7 @@ print (counts['ipp'])
 Name: ipp, dtype: float64
 ```
 
-### Line 40 (ac nominal frequencys)
+### Line 35 (ac nominal frequencys)
 This line shows the nominal values of frequency of each observation related to the variable ac.
 
 ```python
@@ -238,7 +234,7 @@ print (counts['ac'])
 Name: ac, dtype: float64
 ```
 
-### Line 41 (le nominal frequencys)
+### Line 36 (le nominal frequency)
 This line shows the nominal values of frequency of each observation related to the variable le.
 
 ```python
@@ -305,4 +301,212 @@ print (counts['le'])
 211    49.025
 212    51.384
 Name: le, dtype: float64
+```
+### Line 42 (ipp frequency expressed as a percentage)
+This line shows the frequency values, of each observation related to the variable ipp, expressed as a percentage.
+
+```python
+print (prcnts['ipp'])
+1621.17707762392    0.004695
+26692.9841066319    0.004695
+19630.5405471267    0.004695
+39309.4788585145    0.004695
+2636.78779985257    0.004695
+591.06794433684     0.004695
+1860.75389496662    0.004695
+609.131205921911    0.004695
+5332.23859142075    0.004695
+456.385711651118    0.004695
+242.677534160129    0.004695
+184.141796591644    0.004695
+7381.31275080681    0.004695
+1232.79413697982    0.004695
+3233.42378012982    0.004695
+1714.94288994653    0.004695
+1543.95645667048    0.004695
+9243.58705259742    0.004695
+6147.77960984301    0.004695
+338.266391227048    0.004695
+2534.00037997061    0.004695
+1258.76259631224    0.004695
+3745.64985213146    0.004695
+5184.70932756049    0.004695
+2425.4712932681     0.004695
+268.331790297681    0.004695
+2667.24670973056    0.004695
+1326.74175718861    0.004695
+1253.29201505445    0.004695
+155.033231230204    0.004695
+                      ...   
+15313.8593472276    0.004695
+                    0.107981
+161.317137104969    0.004695
+12505.2125447354    0.004695
+2222.33505218301    0.004695
+3164.9276932512     0.004695
+180.083376000006    0.004695
+37491.1795229012    0.004695
+1381.00426770244    0.004695
+275.884286531631    0.004695
+25306.1871926737    0.004695
+495.734246943527    0.004695
+6334.10519399913    0.004695
+760.262365036505    0.004695
+2344.89691619809    0.004695
+33923.3138682688    0.004695
+557.947512595975    0.004695
+5182.14372064153    0.004695
+1194.71143337515    0.004695
+3180.43061177196    0.004695
+1914.99655094922    0.004695
+15822.1121405699    0.004695
+1144.10219337041    0.004695
+4189.43658749046    0.004695
+1036.830724903      0.004695
+39972.3527684608    0.004695
+4699.41126207406    0.004695
+9106.32723421876    0.004695
+37662.751249706     0.004695
+354.599726291282    0.004695
+Name: ipp, dtype: float64
+```
+
+### Line 43 (ac frequency expressed as a percentage)
+This line shows the frequency values, of each observation related to the variable ac, expressed as a percentage.
+
+```python
+print (prcnts['ac'])
+1.54     0.004695
+16.47    0.004695
+7.6      0.004695
+1.29     0.004695
+4.99     0.004695
+5.25     0.004695
+8.65     0.004695
+.69      0.004695
+10.21    0.004695
+.1       0.009390
+8.94     0.004695
+2.69     0.004695
+.65      0.004695
+10.62    0.004695
+16.12    0.004695
+5.81     0.004695
+6.16     0.004695
+9.46     0.004695
+10.71    0.004695
+10.16    0.004695
+3.91     0.004695
+6.28     0.004695
+1.32     0.004695
+5.56     0.009390
+7.3      0.004695
+9.6      0.004695
+8.99     0.004695
+6.08     0.004695
+.32      0.004695
+6.47     0.004695
+           ...   
+.2       0.004695
+         0.122066
+8.45     0.004695
+15       0.004695
+.92      0.004695
+.52      0.004695
+16.23    0.004695
+2.52     0.004695
+.5       0.004695
+1.05     0.004695
+4.81     0.004695
+9.86     0.004695
+9.65     0.004695
+3.9      0.004695
+11.83    0.004695
+3.56     0.004695
+14.92    0.004695
+4.19     0.004695
+1.49     0.004695
+14.43    0.004695
+3.92     0.004695
+3.23     0.004695
+4.71     0.004695
+3.64     0.004695
+5.78     0.004695
+9.99     0.009390
+12.48    0.004695
+13.45    0.004695
+7.08     0.004695
+1.44     0.004695
+Name: ac, dtype: float64
+```
+
+### Line 44 (le frequency expressed as a percentage)
+This line shows the frequency values, of each observation related to the variable le, expressed as a percentage.
+
+```python
+print (prcnts['le'])
+
+73.456    0.004695
+77.685    0.004695
+73.403    0.004695
+70.349    0.004695
+79.634    0.004695
+55.439    0.004695
+55.442    0.004695
+71.172    0.004695
+71.017    0.004695
+75.901    0.004695
+57.937    0.004695
+75.956    0.004695
+78.005    0.004695
+81.539    0.004695
+74.515    0.004695
+67.852    0.004695
+74.788    0.004695
+80.557    0.004695
+51.088    0.004695
+74.576    0.004695
+73.737    0.004695
+74.241    0.004695
+74.044    0.004695
+79.591    0.004695
+54.21     0.004695
+75.133    0.004695
+53.183    0.004695
+79.963    0.004695
+72.444    0.004695
+65.193    0.004695
+            ...   
+80.414    0.004695
+          0.103286
+73.131    0.004695
+58.582    0.004695
+48.718    0.004695
+62.095    0.004695
+68.287    0.004695
+81.618    0.004695
+81.097    0.004695
+83.394    0.004695
+67.714    0.004695
+74.522    0.004695
+73.703    0.004695
+73.371    0.004695
+73.396    0.004695
+74.126    0.004695
+72.477    0.004695
+48.397    0.004695
+70.739    0.004695
+81.804    0.004695
+73.235    0.004695
+65.493    0.004695
+72.231    0.004695
+72.974    0.009390
+73.99     0.004695
+82.759    0.004695
+49.025    0.004695
+68.494    0.004695
+75.62     0.004695
+61.061    0.004695
+Name: le, dtype: float64
+
 ```
