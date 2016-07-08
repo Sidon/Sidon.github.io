@@ -167,7 +167,7 @@ print (counts['ipp'])
 Name: ipp, dtype: float64
 ```
 
-#### Line 35 (ac nominal frequencys)
+#### Line 35 (ac nominal frequency)
 This line shows the nominal values of frequency of each observation related to the variable ac.
 
 ```python
