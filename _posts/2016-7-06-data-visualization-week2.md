@@ -57,6 +57,7 @@ Bellow there is my code:
 43 print (prcnts['ac'])
 44 print (prcnts['le'])
 ````
+
 ## The output and explanation
 As my variables do not represent categories, maybe the frequency distributions do not seem to make sense, anyhow they are showed on the lines 42-44.
 
