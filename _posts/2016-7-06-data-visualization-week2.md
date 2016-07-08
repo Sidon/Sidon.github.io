@@ -34,7 +34,7 @@ Bellow there is my code:
 20 data1.info()
 21
 22 # Counts missing entry in ipp, ac and le
-23 # Update (07-08) Removed duplicate import (line 5) on this line.
+23 # --------------------------------------
 24 missings = [['Var', 'Missings']]
 25 for var in ('ipp', 'ac', 'le'):
 26     missings.append([var, data1[var].value_counts()[' ']])
