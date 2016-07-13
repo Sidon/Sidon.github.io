@@ -219,7 +219,6 @@ Alcohol    0.03       23.01
 ````
 
 ### <a name = "dictionary"></a>Data Dictionary
-
 Based on min and max values, I created ranges for each variable (k=1000):
 
 |Income          |Life          |Alcohol  
