@@ -26,6 +26,7 @@ Int the Lines 14-15 I renamed variables for convenience and clarity for coding
 14 # Rename columns for clarity                                    
 15 data1.columns = ['country','income','alcohol','life']
 ````
+
 In the line 23 is showed the info about the dataset.
 ````python
 # Show info about dataset
@@ -40,7 +41,8 @@ life       213 non-null object
 dtypes: object(4)
 memory usage: 6.7+ KB
 ````
-### [Parsing Numeric Values](#Parsing)
+
+### <a name = "Parsing"></a>Parsing Numeric Values]
 The function [pd.to_numeric](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.to_numeric.html), convert arguments to a numeric types and the parameter 'errors=coerce' setting invalid parsings (Blanks in this case) as NaN value.
 In the lines 26-29 this function is applied to each observation (each line of the variables), and then the information of the dataset are presented again.
 
@@ -59,8 +61,10 @@ life       191 non-null float64
 dtypes: float64(3), object(1)
 memory usage: 6.7+ KB
 ````
+
 ### <a name = "missings"></a>Missing Values
 Lines 32-33 displays information about the data set, once again: While it may seem that there are no "missing data" (no null objects) actually missing values are, in this case, the space values in blank. In lines 10 to 20 XXX presented to the code conversion invalid entries (white) for a numpy NaN value as well as the first ten rows of the result.
+
 
 ````python
 32 xdata1 = data1[data1.income.isnull() | data1.life.isnull() | data1.alcohol.isnull() | data1.country.isnull()]
@@ -95,8 +99,10 @@ life       171 non-null float64
 dtypes: float64(3), object(1)
 memory usage: 6.7+ KB
 ````
+
 ### [Frequencies Distributions](#freq1)
 In the lines 40-68 the frequencies (absolute and relative) are calculate and showed following, for clarity is presented only 10 first.
+
 
 ````python
 40 freq_life_n = data1.life.value_counts(sort=False)
@@ -179,6 +185,7 @@ alcohol variable (2008 alcohol consumption per adult (liters, age 15+)):
 │ 0.00584795 │ 0.00584795 │ 0.00584795 │ 0.00584795 │ 0.00584795 │
 ╘════════════╧════════════╧════════════╧════════════╧════════════╛
 ````
+
 ### <a name = "categorical"></a>Creating Categorical Variables
 Now is the time to create the categorical variables, for this, I calculate the min and max values of each variable. The code and result are presented in lines 71-89:
 
