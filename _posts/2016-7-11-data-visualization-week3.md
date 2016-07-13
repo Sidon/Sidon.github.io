@@ -14,7 +14,7 @@ After watching the videos of this week and examine again, (this time in a detail
 + [Dropping Missing Values](#drop_missings)
 + [Frequencies Distribution ](#freq1)
 + [Categorical Variables](#categorical)
-+ [Dictionary ](#dictionary)
++ [Data Dictionary ](#dictionary)
 + [Categorical Frequencies Distribution ](#freq2)
 + [Full Code](#full_code)
 
