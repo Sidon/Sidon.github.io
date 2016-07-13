@@ -43,7 +43,7 @@ dtypes: object(4)
 memory usage: 6.7+ KB
 ````
 
-### <a name = "Parsing"></a>Parsing Numeric Values]
+### <a name = "parsing"></a>Parsing Numeric Values]
 The function [pd.to_numeric](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.to_numeric.html), convert arguments to a numeric types and the parameter 'errors=coerce' setting invalid parsings (Blanks in this case) as NaN value.
 At lines 26-29 this function is applied to each observation (each line of the variables), and then the information of the dataset are presented again.
 
@@ -84,7 +84,7 @@ index  Country                Income    Alcohol     Life
    65  French Polynesia       nan        nan      75.133
 ````
 
-### <a name = "drop_missing"></a>Dropping Missing Data
+### <a name = "drop_missings"></a>Dropping Missing Data
 Since that the objective of this work is investigating the impact of alcohol consumption on the life expectancy, no make sense to consider entries with missing data, thus in the lines 35-37 these entries are dropped.
 
 ````python
