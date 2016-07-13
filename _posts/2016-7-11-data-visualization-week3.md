@@ -358,7 +358,9 @@ alcohol variable (Alchohol):
 ╘════════════╧═══════════╧════════════╧════════════╧════════════╛
 ````
 [Full Code](#full_code)
-```python
+
+````python
+
 1 # coding: utf-8
 2 import pandas as pd
 3 import numpy as np
@@ -497,4 +499,4 @@ alcohol variable (Alchohol):
 135 print( tabulate([freq_income_r], tablefmt="fancy_grid", headers=(income_map.values())))
 136 print ('\nalcohol variable ('+ALCOHOL+'):')
 137 print( tabulate([freq_alcohol_r], tablefmt="fancy_grid", headers=(alcohol_map.values())))
-```
+````
