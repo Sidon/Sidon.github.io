@@ -232,7 +232,7 @@ Based on min and max values, I created ranges for each variable (k=1000):
 | 6: >=40K  <50K | NA           | NA
 
 
-In the lines 100-101, the first 10 lines of the dataset are showed with new variables.
+At lines 01, the first 10 lines of the dataset are showed with new variables.
 
 ````python
 100 data2['income'] = pd.cut(data1.income,[100,5000,10000,20000,30000,40000,50000], labels=['1','2','3','4','5','6        '])
