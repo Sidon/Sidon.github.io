@@ -211,7 +211,7 @@ Alcohol    0.03       23.01
 ### [Data Dictionary](#dictionary)
 Based on min and max values, I created ranges for each variable (k=1000):
 
-| Income         | Life         | Alcohol  
+|Income          |Life          |Alcohol  
 |----------------|--------------|---------------
 | 1: >=100  <5k  | 1: >=40  <50 | 1: >=0.5  <5
 | 2: >=5k   <10k | 2: >=50  <60 | 2: >=5    <10
