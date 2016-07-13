@@ -18,8 +18,10 @@ After watching the videos of this week and examine again, (this time in a detail
 + [Categorical Frequencies Distribution ](#freq2)
 + [Full Code](#full_code)
 
-### [Rename Variables](#clarity)
+### <a name = "clarity"></a>Rename Variables
+
 Int the Lines 14-15 I renamed variables for convenience and clarity for coding
+
 ````python
 14 # Rename columns for clarity                                    
 15 data1.columns = ['country','income','alcohol','life']
@@ -57,7 +59,7 @@ life       191 non-null float64
 dtypes: float64(3), object(1)
 memory usage: 6.7+ KB
 ````
-### [Missing Values](#missings)
+### <a name = "missings"></a>Missing Values
 Lines 32-33 displays information about the data set, once again: While it may seem that there are no "missing data" (no null objects) actually missing values are, in this case, the space values in blank. In lines 10 to 20 XXX presented to the code conversion invalid entries (white) for a numpy NaN value as well as the first ten rows of the result.
 
 ````python
@@ -77,7 +79,7 @@ index  Country                Income    Alcohol     Life
    65  French Polynesia       nan        nan      75.133
 ````
 
-### [Dropping Missing Data](#drop_missing)
+### <a name = "drop_missing"></a>Dropping Missing Data
 Since that the objective of this work is investigating the impact of alcohol consumption on the life expectancy, no make sense to consider entries with missing data, thus in the lines 35-37 these entries are dropped.
 
 ````python
@@ -177,7 +179,7 @@ alcohol variable (2008 alcohol consumption per adult (liters, age 15+)):
 │ 0.00584795 │ 0.00584795 │ 0.00584795 │ 0.00584795 │ 0.00584795 │
 ╘════════════╧════════════╧════════════╧════════════╧════════════╛
 ````
-### [Creating Categorical Variables](#categorical)
+### <a name = "categorical"></a>Creating Categorical Variables
 Now is the time to create the categorical variables, for this, I calculate the min and max values of each variable. The code and result are presented in lines 71-89:
 
 ````python
@@ -208,7 +210,8 @@ Life      47.794      83.394
 Alcohol    0.03       23.01
 ````
 
-### [Data Dictionary](#dictionary)
+### <a name = "dictionary"></a>Data Dictionary
+
 Based on min and max values, I created ranges for each variable (k=1000):
 
 |Income          |Life          |Alcohol  
@@ -273,7 +276,7 @@ In the lines 100-101, the first 10 lines of the dataset are showed with new vari
 13 Bahrain            3          1       4
 ````
 
-### [Categorical Frequency Distributions](#freq2)
+### <a name = "freq2"></a>Categorical Frequency Distributions]
 The lines 109-137 showed the absolute and relative frequencies distributions for the new categorical variables.
 
 ````python
@@ -358,7 +361,7 @@ alcohol variable (Alchohol):
 │   0.391304 │  0.347826 │   0.192547 │  0.0621118 │ 0.00621118 │
 ╘════════════╧═══════════╧════════════╧════════════╧════════════╛
 ````
-[Full Code](#full_code)
+#### <a name = "full_code"></a>Full Code
 
 ````python
 
