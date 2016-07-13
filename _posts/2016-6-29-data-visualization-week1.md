@@ -24,8 +24,8 @@ I envisaged the possibility of investigating the correlation between the expecta
 Although the portion of Gapminder provided, is a little piece, I chose to cut the only variables that I think I will use. This is presented bellow:
 
 | Variable Name   | Description of Indicator | Main Source |
-| incomeperperson | 2008 alcohol consumption per adult (age 15+), litres  Recorded and estimated average alcohol consumption, adult (15+) per capita consumption in litres pure alcohol  | World Bank Work Development Indicators                                                                                                                              |
-| alcconsumption  | 2002 breast cancer new cases per 100,000 female Number of new cases of breast cancer in 100,000 female residents during the certain year. | WHO                                              |
+| incomeperperson | 2010 Gross Domestic Product per capita in constant 2000 US$. The inflation but not the differences in the cost of living between countries has been taken into account. | World Bank Work Development Indicators                                                                                                                              |
+| alcconsumption  | 2008 alcohol consumption per adult (age 15+), litres  Recorded and estimated average alcohol consumption, adult (15+) per capita consumption in litres pure alcohol | WHO                                              |
 | lifeexpectancy  | 2011 life expectancy at birth (years) The average number of years a newborn child would live if current mortality patterns were to stay the same.                       | 1. Human Mortality Database; 2. World Population Prospects; 3. Publications and files by: history prof. James C Riley; 4. Human Lifetable Database |
 
 ## Step 4: Identify a second topic that you would like to explore in terms of its association with your original topic.
