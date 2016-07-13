@@ -20,14 +20,14 @@ After watching the videos of this week and examine again, (this time in a detail
 
 ### <a name = "clarity"></a>Rename Variables
 
-Int the Lines 14-15 I renamed variables for convenience and clarity for coding
+For convenience and clarity of coding I renamed variables, lines 14-15.
 
 ````python
 14 # Rename columns for clarity                                    
 15 data1.columns = ['country','income','alcohol','life']
 ````
 
-In the line 23 is showed the info about the dataset.
+On line 23 is showed the info about the dataset.
 
 ````python
 # Show info about dataset
@@ -45,7 +45,7 @@ memory usage: 6.7+ KB
 
 ### <a name = "Parsing"></a>Parsing Numeric Values]
 The function [pd.to_numeric](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.to_numeric.html), convert arguments to a numeric types and the parameter 'errors=coerce' setting invalid parsings (Blanks in this case) as NaN value.
-In the lines 26-29 this function is applied to each observation (each line of the variables), and then the information of the dataset are presented again.
+At lines 26-29 this function is applied to each observation (each line of the variables), and then the information of the dataset are presented again.
 
 ````python
 26 for dt in ('income','alcohol','life') :
@@ -102,7 +102,7 @@ memory usage: 6.7+ KB
 ````
 
 ### <a name = "freq1"></a>Frequencies Distributions
-In the lines 40-68 the frequencies (absolute and relative) are calculate and showed following, for clarity is presented only 10 first.
+At lines 40-68 the frequencies (absolute and relative) are calculate and showed following, for clarity is presented only 10 first.
 
 
 ````python
@@ -188,7 +188,7 @@ alcohol variable (2008 alcohol consumption per adult (liters, age 15+)):
 ````
 
 ### <a name = "categorical"></a>Creating Categorical Variables
-Now is the time to create the categorical variables, for this, I calculate the min and max values of each variable. The code and result are presented in lines 71-89:
+Now is the time to create the categorical variables, for this, I calculate the min and max values of each variable. The code and result are presented  (lines 71-89):
 
 ````python
 71 min_max = OrderedDict()
@@ -285,7 +285,7 @@ In the lines 100-101, the first 10 lines of the dataset are showed with new vari
 ````
 
 ### <a name = "freq2"></a>Categorical Frequency Distributions
-The lines 109-137 showed the absolute and relative frequencies distributions for the new categorical variables.
+The next lines (109-137) showed the absolute and relative frequencies distributions for the new categorical variables.
 
 ````python
 
