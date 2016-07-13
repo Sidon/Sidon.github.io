@@ -28,6 +28,7 @@ Int the Lines 14-15 I renamed variables for convenience and clarity for coding
 ````
 
 In the line 23 is showed the info about the dataset.
+
 ````python
 # Show info about dataset
 23 data1.info()
@@ -100,7 +101,7 @@ dtypes: float64(3), object(1)
 memory usage: 6.7+ KB
 ````
 
-### [Frequencies Distributions](#freq1)
+### <a name = "freq1"></a>Frequencies Distributions
 In the lines 40-68 the frequencies (absolute and relative) are calculate and showed following, for clarity is presented only 10 first.
 
 
@@ -283,7 +284,7 @@ In the lines 100-101, the first 10 lines of the dataset are showed with new vari
 13 Bahrain            3          1       4
 ````
 
-### <a name = "freq2"></a>Categorical Frequency Distributions]
+### <a name = "freq2"></a>Categorical Frequency Distributions
 The lines 109-137 showed the absolute and relative frequencies distributions for the new categorical variables.
 
 ````python
@@ -368,7 +369,8 @@ alcohol variable (Alchohol):
 │   0.391304 │  0.347826 │   0.192547 │  0.0621118 │ 0.00621118 │
 ╘════════════╧═══════════╧════════════╧════════════╧════════════╛
 ````
-#### <a name = "full_code"></a>Full Code
+
+### <a name = "full_code"></a>Full Code
 
 ````python
 
