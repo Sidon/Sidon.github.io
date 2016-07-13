@@ -24,7 +24,7 @@ I envisaged the possibility of investigating the correlation between the expecta
 Although the portion of Gapminder provided, is a little piece, I chose to cut the only variables that I think I will use. This is presented bellow:
 
 | Variable Name   | Description of Indicator | Main Source |
-| incomeperperson | 2010 Gross Domestic Product per capita in constant 2000 US$. The inflation but not the differences in the cost of living between countries has been taken into account. | World Bank Work Development Indicators                                                                                                                              |
+| incomeperperson | 2008 alcohol consumption per adult (age 15+), litres  Recorded and estimated average alcohol consumption, adult (15+) per capita consumption in litres pure alcohol  | World Bank Work Development Indicators                                                                                                                              |
 | alcconsumption  | 2002 breast cancer new cases per 100,000 female Number of new cases of breast cancer in 100,000 female residents during the certain year. | WHO                                              |
 | lifeexpectancy  | 2011 life expectancy at birth (years) The average number of years a newborn child would live if current mortality patterns were to stay the same.                       | 1. Human Mortality Database; 2. World Population Prospects; 3. Publications and files by: history prof. James C Riley; 4. Human Lifetable Database |
 
@@ -45,7 +45,7 @@ I did do my research in the Google Scholar with the string: "alcohol consumption
 
 
 
-My original plan was to do an in-depth investigation of the chosen topics. Due to the short time and the fact that most articles are accessible only through pay assign, I  opted by to select some papers and to analyze their abstracts and the open sections (frequently, "results'' and "conclusions"). Three of these papers are summarized bellow. 
+My original plan was to do an in-depth investigation of the chosen topics. Due to the short time and the fact that most articles are accessible only through pay assign, I  opted by to select some papers and to analyze their abstracts and the open sections (frequently, "results'' and "conclusions"). Three of these papers are summarized bellow.
 
 ### Changes in life expectancy in Russia in the mid-1990s [1]
 In this article, the authors state that the life expectancy in Russia has been changing due to the intricate pattern of trends in different causes of death, where some of which have their origins long in the past and others that results for contemporary circumstances.  In the words of authors, the study provides further support for the view that alcohol has played an important part in the fluctuations int life expectancy in Russia in the 1990s.
@@ -67,8 +67,8 @@ The level of alcohol consumption of a country might be directly related to expec
 Socioeconomic status and income levels have a direct correlation with the level of alcohol consumption of a country.
 
 ## Reference
-[1] Shkolnikov, V.; McKee, M.; Leon, D. Changes in life expectancy in Russia in the mid-1990s. The Lancet, v. 357, n. 9260, p. 917-921, 2001. 
+[1] Shkolnikov, V.; McKee, M.; Leon, D. Changes in life expectancy in Russia in the mid-1990s. The Lancet, v. 357, n. 9260, p. 917-921, 2001.
 
-[2] Trevisan, M. et al. Drinking Pattern and Mortality:. Annals of Epidemiology, v. 11, n. 5, p. 312-319, 2001. 
+[2] Trevisan, M. et al. Drinking Pattern and Mortality:. Annals of Epidemiology, v. 11, n. 5, p. 312-319, 2001.
 
 [3] Streppel, M. et al. Long-term wine consumption is related to cardiovascular mortality and life expectancy independently of moderate alcohol intake: the Zutphen Study. Journal of Epidemiology & Community Health, v. 63, n. 7, p. 534-540, 2009.
