@@ -14,7 +14,7 @@ The entire code for this week can see [here](https://github.com/Sidon/Sidon.gith
   + [Univariate for life](#univar2)
     + [descriptive statistics](#desc2)
 
-The explanatory and response variables, life expectancy and alcohol consumption respectively, arequantitative, thus are presented in a scatter graph.
+The explanatory and response variables, life expectancy and alcohol consumption respectively, are quantitative, thus are presented in a scatter graph.
 
 + [Scatterplot ](#scatter1)
 
