@@ -5,21 +5,27 @@ published: true
 ---
 
 Now is the time in that we going to begin to visualize our variable with graphs.
-Though three or more variable could be selected, in a name of clarity and simplicity, I opted for only 2: Life Expectancy and alcohol consumption. For more information about my project see [here](https://sidon.github.io/data-visualization-week1/)
+Though three or more variable could be selected, in a name of clarity and simplicity, I opted for only 2: Life Expectancy and alcohol consumption. For more information about my project click [here](https://sidon.github.io/data-visualization-week1/).
 
 + [Univariate histograms for quantitative variables](#univar1)
   + [Univariate for alcohol ](#univar1)
     + [descriptive statistics](#desc1)
   + [Univariate for life](#univar2)
     + [descriptive statistics](#desc2)
-
 + [Scatterplot ](#scatter1)
 
-During the second week, I created the Categorical Variables and the respective Data dictionary ([See here](https://sidon.github.io/data-visualization-week3/#categorical)), Now   
+During the second week, I created the Categorical Variables and the respective Data dictionary ([See here](https://sidon.github.io/data-visualization-week3/#categorical)), Now the respectives bar graph is showing:
+
++ [Univariate bar graphs for categorical variables](#barqt)
+  + [Bar graph for life](#categ_life)
+  + [Univariate for alcohol](#categ_alcohol)
+
++ [Bivariete Bar Graph](#bivar)
 
 ## <a name = "histqt"></a>Univariate histograms for quantitative variables
 
 ### <a name = "univar1"></a>Univariate histogram for alcohol consumption:
+
 ![Alcohol1](/images/unialcohol1.png)
 
 
@@ -32,7 +38,7 @@ During the second week, I created the Categorical Variables and the respective D
 │     171 │ 6.78409 │ 4.95145 │  0.05 │ 2.725 │  5.92 │  9.99 │ 23.01 │
 ╘═════════╧═════════╧═════════╧═══════╧═══════╧═══════╧═══════╧═══════╛
 ```
-For code, see section [NN] and [NN] on this notebook.
+For code, see section [NN] and [NN] on [this notebook.](./submitw4.ipynb)
 
 ### <a name = "univar2"></a>Univariate histogram for life expectancy:
 ![Life1](/images/unilife1.png)
@@ -55,20 +61,20 @@ For code, see section [NN] and [NN] on this notebook.
 
 ## <a name = "barqt"></a>Univariate bar graphs for categorical variables
 
-### <a name = "unicateg1"></a>Univariate bar graph for categorical variable life:
+### <a name = "categ_life"></a>Univariate bar graph for categorical variable life:
 
 ![Categ1](/images/unicateg_life.png)
 
 For code, see section [NN] and [NN] on this notebook.
 
-### <a name = "unicateg1"></a>univariate bar graph for categorical variable alcohol
+### <a name = "categ_alcohol"></a>univariate bar graph for categorical variable alcohol
 
 ![Categ2](/images/unicateg_alcohol.png)
 
 For code, see section [NN] and [NN] on this notebook.
 
 
-### <a name = "unicateg1"></a>Bivariate bar graph
+### <a name = "bivar"></a>Bivariate bar graph
 
 ![Bivar1](/images/bivar.png)
 
