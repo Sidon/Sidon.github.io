@@ -5,7 +5,7 @@ published: true
 ---
 
 Now is the time in that we going to begin to visualize our variables with graphs.
-Though three or more variable could be selected, in a name of clarity and simplicity and for to focus on the hypothesis of the project , I opted for only 2: Life Expectancy and alcohol consumption. For more information about my project, click [here](https://sidon.github.io/data-visualization-week1/).
+Though three or more variable could be selected, in the name of clarity and simplicity and for to focus on the hypothesis of the project , I opted for only 2: Life Expectancy and alcohol consumption. For more information about my project, click [here](https://sidon.github.io/data-visualization-week1/).
 The entire code for this week can see [here](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/submitw4.ipynb).
 
 + [Univariate histograms for quantitative variables](#univar1)
