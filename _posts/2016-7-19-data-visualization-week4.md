@@ -26,7 +26,7 @@ During the second week, I created the Categorical Variables and the respective D
 
 As the scatter graph had been a bit confused, I decided to convert one of the variable (the dependent) in categorical and then to plot the explanatory/response variable in a bar graph.
 
-+ [Bivariete Bar Graph](#bivar)
++ [Bivariate Bar Graph](#bivar)
 
 Though this not a scientific work, I wrote a conclusion.
 
