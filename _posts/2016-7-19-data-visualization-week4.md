@@ -37,7 +37,7 @@ During the second week, I created the Categorical Variables and the respective D
 │     171 │ 6.78409 │ 4.95145 │  0.05 │ 2.725 │  5.92 │  9.99 │ 23.01 │
 ╘═════════╧═════════╧═════════╧═══════╧═══════╧═══════╧═══════╧═══════╛
 ```
-For code, see section [66] and [67] on [this notebook.](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/submitw4.ipynb).
+For code, see section [66] and [67] on [this jupyter notebook.](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/submitw4.ipynb).
 
 ### <a name = "univar2"></a>Univariate histogram for life expectancy:
 ![Life1](/images/unilife1.png)
@@ -51,12 +51,12 @@ For code, see section [66] and [67] on [this notebook.](https://github.com/Sidon
 │     171 │ 69.3857 │ 9.72824 │ 47.794 │ 62.747 │ 72.974 │ 76.099 │ 83.394 │
 ╘═════════╧═════════╧═════════╧════════╧════════╧════════╧════════╧════════╛
 ```
-For code, see section [68] and [69] on [this jupyter notebook] (https://github.com/Sidon/Sidon.github.io/blob/master/_posts/submitw4.ipynb).
+For code, see section [68] and [69] on [this jupyter notebook](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/submitw4.ipynb).
 
 ### <a name = "scatter1"></a>Scatterplot for the association between Alcohol Consumption and Life Expectancy:
 ![Scatter1](/images/scatter1.png)
 
-For code, see section [70] on [this jupyter notebook] (https://github.com/Sidon/Sidon.github.io/blob/master/_posts/submitw4.ipynb).
+For code, see section [70] on [this jupyter notebook](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/submitw4.ipynb).
 
 ## <a name = "barqt"></a>Univariate bar graphs for categorical variables
 
@@ -64,17 +64,17 @@ For code, see section [70] on [this jupyter notebook] (https://github.com/Sidon/
 
 ![Categ1](/images/unicateg_life.png)
 
-For code, see section [71] on [this jupyter notebook] (https://github.com/Sidon/Sidon.github.io/blob/master/_posts/submitw4.ipynb).
+For code, see section [71] on [this jupyter notebook](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/submitw4.ipynb).
 
 ### <a name = "categ_alcohol"></a>univariate bar graph for categorical variable alcohol
 
 ![Categ2](/images/unicateg_alcohol.png)
 
-For code, see section [72] on [this jupyter notebook] (https://github.com/Sidon/Sidon.github.io/blob/master/_posts/submitw4.ipynb).
+For code, see section [72] on [this jupyter notebook](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/submitw4.ipynb).
 
 
 ### <a name = "bivar"></a>Bivariate bar graph
 
 ![Bivar1](/images/bivar.png)
 
-For code, see section [74] and [this jupyter notebook] (https://github.com/Sidon/Sidon.github.io/blob/master/_posts/submitw4.ipynb).
+For code, see section [74] and [this jupyter notebook](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/submitw4.ipynb).
