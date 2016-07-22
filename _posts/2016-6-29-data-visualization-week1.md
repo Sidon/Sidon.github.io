@@ -20,7 +20,7 @@ As I'm not that young anymore, I have been seeing some of my friends died of man
 I envisaged the possibility of investigating the correlation between the expectancy life and the alcohol consumption when I  analyzed the Gapminder codebook.
 
 
-## Step 3: Prepare a codebook of your own.
+## <a name = "codebook"></a>Step 3: Prepare a codebook of your own.  
 Although the portion of Gapminder provided, is a little piece, I chose to cut the only variables that I think I will use. This is presented bellow:
 
 | Variable Name   | Description of Indicator | Main Source |
