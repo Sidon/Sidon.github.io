@@ -38,7 +38,7 @@ During the second week, I created the Categorical Variables and the respective D
 │     171 │ 6.78409 │ 4.95145 │  0.05 │ 2.725 │  5.92 │  9.99 │ 23.01 │
 ╘═════════╧═════════╧═════════╧═══════╧═══════╧═══════╧═══════╧═══════╛
 ```
-For code, see section [NN] and [NN] on [this notebook.](./submitw4.ipynb)
+For code, see section [NN] and [NN] on [this notebook.](submitw4.ipynb)
 
 ### <a name = "univar2"></a>Univariate histogram for life expectancy:
 ![Life1](/images/unilife1.png)
