@@ -4,8 +4,8 @@ title: Data Visualization - Week 4
 published: true
 ---
 
-Now is the time in that we going to begin to visualize our variable with graphs.
-Though three or more variable could be selected, in a name of clarity and simplicity, I opted for only 2: Life Expectancy and alcohol consumption. For more information about my project click [here](https://sidon.github.io/data-visualization-week1/).
+Now is the time in that we going to begin to visualize our variables with graphs.
+Though three or more variable could be selected, in a name of clarity and simplicity and for to focus on the hypothesis of the project , I opted for only 2: Life Expectancy and alcohol consumption. For more information about my project, click [here](https://sidon.github.io/data-visualization-week1/).
 
 + [Univariate histograms for quantitative variables](#univar1)
   + [Univariate for alcohol ](#univar1)
@@ -22,13 +22,16 @@ During the second week, I created the Categorical Variables and the respective D
 
 + [Bivariete Bar Graph](#bivar)
 
+Though this not a scientific work, I wrote a conclusion.
++ [Conclusion](#conclusion)
+
 ## <a name = "histqt"></a>Univariate histograms for quantitative variables
 
 ### <a name = "univar1"></a>Univariate histogram for alcohol consumption:
 
 ![Alcohol1](/images/unialcohol1.png)
 
-   #### <a name = "desc1"></a>Standard deviation and other descriptive statistics for quantitative variable alcohol
+#### <a name = "desc1"></a>Standard deviation and other descriptive statistics for quantitative variable alcohol
 
 ```python
 ╒═════════╤═════════╤═════════╤═══════╤═══════╤═══════╤═══════╤═══════╕
@@ -42,7 +45,7 @@ For code, see section [66] and [67] on [this jupyter notebook.](https://github.c
 ### <a name = "univar2"></a>Univariate histogram for life expectancy:
 ![Life1](/images/unilife1.png)
 
-   #### <a name = "desc2"></a>Standard deviation and other descriptive statistics for quantitative variable life.
+#### <a name = "desc2"></a>Standard deviation and other descriptive statistics for quantitative variable life.
 
 ```python
 ╒═════════╤═════════╤═════════╤════════╤════════╤════════╤════════╤════════╕
@@ -78,3 +81,7 @@ For code, see section [72] on [this jupyter notebook](https://github.com/Sidon/S
 ![Bivar1](/images/bivar.png)
 
 For code, see section [74] and [this jupyter notebook](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/submitw4.ipynb).
+
+### <a name = "conclusion"></a>Conclusion
+Analysing only the scatter graph seems do not be a correlation between the variables, but considering the bivariate bar graph we can say that moderate alcohol consumption can contribute to life expectancy increases.
+Of course, this not a scientific work and have value only for this context.
