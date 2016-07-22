@@ -13,6 +13,9 @@ The entire code for this week can see [here](https://github.com/Sidon/Sidon.gith
     + [descriptive statistics](#desc1)
   + [Univariate for life](#univar2)
     + [descriptive statistics](#desc2)
+
+The explanatory and response variables, life expectancy and alcohol consumption respectively, arequantitative, thus are presented in a scatter graph.
+
 + [Scatterplot ](#scatter1)
 
 During the second week, I created the Categorical Variables and the respective Data dictionary ([See here](https://sidon.github.io/data-visualization-week3/#categorical)), Now the respectives bar graph is showing:
@@ -20,6 +23,8 @@ During the second week, I created the Categorical Variables and the respective D
 + [Univariate bar graphs for categorical variables](#barqt)
   + [Bar graph for life](#categ_life)
   + [Bar graph for alcohol](#categ_alcohol)
+
+As the scatter graph had been a bit confused, I decided to convert one of the variable (the dependent) in categorical and then to plot the explanatory/response variable in a bar graph.
 
 + [Bivariete Bar Graph](#bivar)
 
