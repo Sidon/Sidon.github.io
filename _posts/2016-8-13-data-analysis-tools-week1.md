@@ -1,3 +1,8 @@
+---
+layout: post
+title: Data Analysis Tools - Week1
+published: true
+---
 
 This is the first assignment or the second course (of five) [Data Analysis and Interpretation Specialization](https://www.coursera.org/specializations/data-analysis) detailed information about it can be seeing [here](https://www.coursera.org/learn/data-visualization#).
 
