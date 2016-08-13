@@ -66,7 +66,7 @@ Kurtosis:                       2.746   Cond. No.                         14.4
 Warnings:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 ```
-As the p-value is less than 0.05, it would be safe to reject the null hypothesis if my categorical variable was only 2 levels.
+As the F-Statistics = 6.112 and p-value is less than 0.05, it would be safe to reject the null hypothesis if my categorical variable was only 2 levels.
 
 For the mean and the standard deviation we have:
 
