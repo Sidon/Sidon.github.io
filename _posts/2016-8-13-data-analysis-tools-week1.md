@@ -27,7 +27,7 @@ My numerical variable is the life expectancy and the categorical is a five level
 | >=15   <20 | Alcohol consumption between 15 and 20 litters
 | >=20   <25 | Alcohol consumption between 20 and 25 litters
 
-### F-Static
+### F-Statistics
 Bellow the code and output or F-statics is showed:
 
 ```python
@@ -93,3 +93,5 @@ Multiple Comparison of Means - Tukey HSD,FWER=0.05
 ```
 
 Through the analysis of these results it is clear that the F test is insufficient in this case because of the 10 comparisons, only 2 have rejected the hypothesis.
+
+The entire code for this week can see [here](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw1.ipynb).
