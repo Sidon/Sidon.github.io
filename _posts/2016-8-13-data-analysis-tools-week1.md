@@ -27,7 +27,7 @@ My numerical variable is the life expectancy and the categorical is a five level
 | >=15   <20 | Alcohol consumption between 15 and 20 litters
 | >=20   <25 | Alcohol consumption between 20 and 25 litters
 
-### F-Statistics
+### Analysis of Variance
 
 Bellow the code and output or F-statics is showed:
 Session 39 in [this jupyter notebook](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw1.ipynb).
