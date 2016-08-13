@@ -68,6 +68,45 @@ Warnings:
 ```
 As the p-value is less than 0.05, it would be safe to reject the null hypothesis if my categorical variable was only 2 levels.
 
+For the mean and the standard deviation we have:
+
+### Means
+
+```python
+means = [data2[data2.alcohol=='>=0 <5'].mean(),
+         data2[data2.alcohol=='>=5 <10'].mean(),
+         data2[data2.alcohol=='>=10 <15'].mean(),
+         data2[data2.alcohol=='>=15 <20'].mean(),
+         data2[data2.alcohol=='>=20 <25'].mean() ]
+
+print (tabulate([means], tablefmt="fancy_grid", headers=[i for i in alcohol_map.values()]))
+
+╒══════════╤═══════════╤════════════╤════════════╤════════════╕
+│   >=0 <5 │   >=5 <10 │   >=10 <15 │   >=15 <20 │   >=20 <25 │
+╞══════════╪═══════════╪════════════╪════════════╪════════════╡
+│  65.9337 │   69.5987 │    75.4965 │    71.5558 │     69.317 │
+╘══════════╧═══════════╧════════════╧════════════╧════════════╛
+```
+
+### Standard deviations
+
+```python
+stds = [data2[data2.alcohol=='>=0 <5'].std(),
+         data2[data2.alcohol=='>=5 <10'].std(),
+         data2[data2.alcohol=='>=10 <15'].std(),
+         data2[data2.alcohol=='>=15 <20'].std(),
+         data2[data2.alcohol=='>=20 <25'].std() ]
+
+print (tabulate([stds], tablefmt="fancy_grid", headers=[i for i in alcohol_map.values()]))
+
+╒══════════╤═══════════╤════════════╤════════════╤════════════╕
+│   >=0 <5 │   >=5 <10 │   >=10 <15 │   >=15 <20 │   >=20 <25 │
+╞══════════╪═══════════╪════════════╪════════════╪════════════╡
+│  9.16795 │   10.4934 │    7.67605 │    7.20923 │        nan │
+╘══════════╧═══════════╧════════════╧════════════╧════════════╛
+
+```
+
 ### Post Hoc Test
 
 As my categorical variable has more than two levels, is necessary to apply a post hoc test, for this I used the Tukey's Honestly Significant Difference Test.
