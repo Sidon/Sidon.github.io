@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data Analysis Tools - Week1 | Running an analysis of variance
+title: Data Analysis Tools - Week1 | Analysis of variance
 published: true
 ---
 
