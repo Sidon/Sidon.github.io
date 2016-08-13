@@ -29,6 +29,7 @@ My numerical variable is the life expectancy and the categorical is a five level
 
 ### F-Statistics
 Bellow the code and output or F-statics is showed:
+Session 12 in [this jupyter notebook](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw1.ipynb).
 
 ```python
 model1 = smf.ols(formula='life ~ C(alcohol)', data=data2)
@@ -69,6 +70,8 @@ As the p-value is less than 0.05, it would be safe to reject the null hypothesis
 ### Post Hoc Test
 
 As my categorical variable has more than two levels, is necessary to apply a post hoc test, for this I used the Tukey's Honestly Significant Difference Test.
+
+Session 13 in [this jupyter notebook](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw1.ipynb).
 
 ```python
 mc1 = multi.MultiComparison(data2['life'], data2['alcohol'])
