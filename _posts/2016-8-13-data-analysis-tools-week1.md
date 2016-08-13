@@ -8,7 +8,7 @@ This is the first assignment or the second course (of five) [Data Analysis and I
 
 ## Assignment 1:
 On the first course, I have selected a dataset and research question, managed my variables of interest and visualized their relationship graphically. Now is time to test that relationship statistically.
-[click here](https://sidon.github.io/data-visualization-week1/)for details for this project
+[click here](https://sidon.github.io/data-visualization-week1/) for details for this project
 
 My primary hypothesis was defined:
 The level of alcohol consumption of a country might be directly related to expectancy life.
@@ -28,6 +28,7 @@ My numerical variable is the life expectancy and the categorical is a five level
 | >=20   <25 | Alcohol consumption between 20 and 25 litters
 
 ### F-Statistics
+
 Bellow the code and output or F-statics is showed:
 Session 12 in [this jupyter notebook](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw1.ipynb).
 
