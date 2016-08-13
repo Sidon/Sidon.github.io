@@ -30,7 +30,7 @@ My numerical variable is the life expectancy and the categorical is a five level
 ### F-Statistics
 
 Bellow the code and output or F-statics is showed:
-Session 12 in [this jupyter notebook](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw1.ipynb).
+Session 39 in [this jupyter notebook](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw1.ipynb).
 
 ```python
 model1 = smf.ols(formula='life ~ C(alcohol)', data=data2)
@@ -72,6 +72,8 @@ For the mean and the standard deviation we have:
 
 ### Means
 
+Session 40 in [this jupyter notebook](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw1.ipynb).
+
 ```python
 means = [data2[data2.alcohol=='>=0 <5'].mean(),
          data2[data2.alcohol=='>=5 <10'].mean(),
@@ -89,6 +91,8 @@ print (tabulate([means], tablefmt="fancy_grid", headers=[i for i in alcohol_map.
 ```
 
 ### Standard deviations
+
+Session 41 in [this jupyter notebook](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw1.ipynb).
 
 ```python
 stds = [data2[data2.alcohol=='>=0 <5'].std(),
@@ -111,7 +115,7 @@ print (tabulate([stds], tablefmt="fancy_grid", headers=[i for i in alcohol_map.v
 
 As my categorical variable has more than two levels, is necessary to apply a post hoc test, for this I used the Tukey's Honestly Significant Difference Test.
 
-Session 13 in [this jupyter notebook](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw1.ipynb).
+Session 42 in [this jupyter notebook](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw1.ipynb).
 
 ```python
 mc1 = multi.MultiComparison(data2['life'], data2['alcohol'])
