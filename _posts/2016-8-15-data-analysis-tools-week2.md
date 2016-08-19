@@ -49,7 +49,7 @@ My numerical variable is the life expectancy and the categorical is a five level
 | >69             | Greater than the calculated mean
 
 
-###  <a name = "hypothesis"></a>hypothesis
+###  <a name = "hypothesis"></a>Hypothesis
 Test the hypothesis about alcohol consumption and life expectancy Specifically, is how quantity litters alcohol consumption per year in a country is related a life expectancy, or in hypothesis testing terms, is the quantity of alcohol consumption and life expectancy is independent or dependent? For this analysis, I'm going to use a categorical explanatory variable with five levels, with the following categorical values: Alcohol consumption (per year, in liters) from 0 to 5, from 5 to 10, from 10 to 15, from 15 to 20 and from 20 to 25
 My response variable is categorical with 2 levels. That is, life expectancy greater than or less than the mean (calculated) of all countries in gapmind data set.
 
@@ -57,7 +57,7 @@ My response variable is categorical with 2 levels. That is, life expectancy grea
 
 No there is association between life expectancy and alcohol consumption.
 
-###  <a name = "contingency1"></a>contingency table
+###  <a name = "contingency1"></a>Contingency table
 
 ```python
 # contingency table of observed counts
