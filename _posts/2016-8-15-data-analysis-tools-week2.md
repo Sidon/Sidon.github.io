@@ -41,7 +41,6 @@ My numerical variable is the life expectancy and the categorical is a five level
 | >=20   <25 | Alcohol consumption between 20 and 25 litters
 
 
-
 #### <a name = "life_dictionary"></a>Data Dictionary for life expectancy variable
 
 | Life expectancy | Description
@@ -68,7 +67,7 @@ headers_alcohol.insert(0,'life/alcool')
 print (tabulate(ct1,tablefmt="pipe",
                     headers=headers_alcohol))
 ```
-Section [203] on [this](notebook)
+Section [277] on [this jupyter notebook](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw2.ipynb)
 
 | life/alcool   |   >=0 <5 |   >=5 <10 |   >=10 <15 |   >=15 <20 |   >=20 <25 |
 |:--------------|---------:|----------:|-----------:|-----------:|-----------:|
@@ -89,7 +88,6 @@ Is easy to see the equivocal examining the [contigency table](#contingency1), on
 To help, even more, this issue, I used the countplot seaborn function, that is "A special case for the bar plot is when you want to show the number of observations in each category rather than computing a statistic for a second variable. This is similar to a histogram over a categorical, rather than quantitative, variable.",
  [Se here](https://stanford.edu/~mwaskom/software/seaborn/tutorial/categorical.html).
 
-
 ![Count observations](/images/countplot1.png)
 
 On this graph is easy to see that only 1 observation was realized in the column >=20 <=25.
@@ -108,7 +106,7 @@ results['df'] = cs1[2]
 print (tabulate([results.values()], tablefmt="fancy_grid",
                 headers=[i for i in results.keys()]))
 ```
-Code in section [205] [on this notebook](notebook)
+Code in section [282] [on this notebook](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw2.ipynb)
 
 |   chi-square |     p-value |   df |
 |-------------:|------------:|-----:|
@@ -155,7 +153,7 @@ print (tabulate(results, tablefmt="fancy_grid",
                 headers=['groups', 'chi-square', 'p-value', 'df', 'h0 reject'] ))
 ```
 
-Code in section [206] [on this notebook](notebook)
+Code in section [283] [on this notebook](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw2.ipynb)
 
 | groups                   |   chi-square |     p-value |   df | h0 reject   |
 |:-------------------------|-------------:|------------:|-----:|:------------|
@@ -173,3 +171,5 @@ Code in section [206] [on this notebook](notebook)
 ### <a name = "conclusion"></a>Conclusion
 
 Although in the first chi-square calculus the p-value indicated that the null hypothesis could be rejected (p-value < .05), the table above, resulting of Post hoc Bonferroni Adjustment, where the chi<sup>2</sup> is calculated for all group each against each other (two by two), show us that the only comparison that we can reject the null hypothesis is >=0 <5 and >=10 <15 suggesting that if exists correlation between life expectancy and alcohol consumption is among the countries that have the levels of alcohol consumption between 0 and 5 and 10 and 15 liters.
+
+The entire code for this week can see [here](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw2.ipynb).
