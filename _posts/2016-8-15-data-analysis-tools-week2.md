@@ -89,7 +89,8 @@ Is easy to see the equivocal examining the [contigency table](#contingency1), on
 To help, even more, this issue, I used the countplot seaborn function, that is "A special case for the bar plot is when you want to show the number of observations in each category rather than computing a statistic for a second variable. This is similar to a histogram over a categorical, rather than quantitative, variable.",
  [Se here](https://stanford.edu/~mwaskom/software/seaborn/tutorial/categorical.html).
 
-![percentage](/images/countplot1.png)
+
+![Count observations](/images/countplot1.png)
 
 On this graph is easy to see that only 1 observation was realized in the column >=20 <=25.
 
