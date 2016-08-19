@@ -29,6 +29,7 @@ The entire code for this week can see [here](https://github.com/Sidon/Sidon.gith
 ### <a name = "dictionaries"></a>Data Dictionaries
 
 #### <a name = "alcohol_dictionary"></a>Data Dictionary for alcohol variable
+
 My numerical variable is the life expectancy and the categorical is a five levels variable, this is, the alcohol consumption (in liters) divided into 5 ranges:
 
 | Alcohol    | Description  
@@ -38,6 +39,7 @@ My numerical variable is the life expectancy and the categorical is a five level
 | >=10   <15 | Alcohol consumption between 10 and 15 litters
 | >=15   <20 | Alcohol consumption between 15 and 20 litters
 | >=20   <25 | Alcohol consumption between 20 and 25 litters
+
 
 
 #### <a name = "life_dictionary"></a>Data Dictionary for life expectancy variable
@@ -53,9 +55,11 @@ Test the hypothesis about alcohol consumption and life expectancy Specifically, 
 My response variable is categorical with 2 levels. That is, life expectancy greater than or less than the mean (calculated) of all countries in gapmind data set.
 
 ####  <a name = "nullh"></a>Null hypothesis:
+
 No there is association between life expectancy and alcohol consumption.
 
 ###  <a name = "contingency1"></a>contingency table
+
 ```python
 # contingency table of observed counts
 ct1=pd.crosstab(data2['life'], data2['alcohol'])
@@ -80,6 +84,7 @@ Examining these column percents for those with life expectancy (greater or less 
 The analysis of this graph without other analysis (like the frequencies), maybe can lead an error. It seems to show that the most country with the life expectancy greater than the mean are those that alcohol consumption is in the range between 20 and 25 liters.
 
 ###  <a name = "graph2"></a>Graph of count observations
+
 Is easy to see the equivocal examining the [contigency table](#contingency1), on the column of category >=20 <25 we can verify that only one observation was collected.
 To help, even more, this issue, I used the countplot seaborn function, that is "A special case for the bar plot is when you want to show the number of observations in each category rather than computing a statistic for a second variable. This is similar to a histogram over a categorical, rather than quantitative, variable.",
  [Se here](https://stanford.edu/~mwaskom/software/seaborn/tutorial/categorical.html).
@@ -109,6 +114,7 @@ Code in section [205] [on this notebook](notebook)
 Looking at the significant P value, we will accept the alternate Hypothesis, where not all life expectancy rates are equal across alcohol consumption categories. If my explanatory variable had only two levels, I could interpret the two corresponding column percentages and be able to say wich group had a significantly higher rate of life expectancy. But my explanatory variable has five categories. So I know that not all are equal. But I don't know wich are different and wich are not.
 
 ### <a name = "post-hoc"></a>Post Hoc Bonferroni Adjustment
+
 On Bonferroni Adjustment p value had adjusted dividing p 0.05 by
 the number of comparisions that we plan to make
 
@@ -145,6 +151,7 @@ for pair in pairs:
 print (tabulate(results, tablefmt="fancy_grid",
                 headers=['groups', 'chi-square', 'p-value', 'df', 'h0 reject'] ))
 ```
+
 Code in section [206] [on this notebook](notebook)
 
 | groups                   |   chi-square |     p-value |   df | h0 reject   |
