@@ -12,7 +12,7 @@ The second assignment deals with the Chi-Square Test of Independence. A Chi-Squa
 On the first course, I have selected a dataset and research question, managed my variables of interest and visualized their relationship graphically. Now is time to test that relationship statistically.
 [click here](https://sidon.github.io/data-visualization-week1/) for details for this project
 
-The entire code for this week can see [here](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw2.ipynb).
+See the entire code for this week  [here](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw2.ipynb).
 
 + [Data Dictionaries](#dictionaries)
   + [For alcohol variable ](#alcohol_dictionary)
@@ -172,4 +172,4 @@ Code in section [283] [on this notebook](https://github.com/Sidon/Sidon.github.i
 
 Although in the first chi-square calculus the p-value indicated that the null hypothesis could be rejected (p-value < .05), the table above, resulting of Post hoc Bonferroni Adjustment, where the chi<sup>2</sup> is calculated for all group each against each other (two by two), show us that the only comparison that we can reject the null hypothesis is >=0 <5 and >=10 <15 suggesting that if exists correlation between life expectancy and alcohol consumption is among the countries that have the levels of alcohol consumption between 0 and 5 and 10 and 15 liters.
 
-The entire code for this week can see [here](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw2.ipynb).
+See the entire code for this week  [here](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw2.ipynb).
