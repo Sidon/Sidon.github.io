@@ -12,7 +12,7 @@ The second assignment deals with the Chi-Square Test of Independence. A Chi-Squa
 On the first course, I have selected a dataset and research question, managed my variables of interest and visualized their relationship graphically. Now is time to test that relationship statistically.
 [click here](https://sidon.github.io/data-visualization-week1/) for details for this project
 
-The entire code for this week can see [here](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/submitw4.ipynb).
+The entire code for this week can see [here](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw2.ipynb).
 
 + [Data Dictionaries](#dictionaries)
   + [For alcohol variable ](#alcohol_dictionary)
@@ -27,6 +27,7 @@ The entire code for this week can see [here](https://github.com/Sidon/Sidon.gith
 + [Conclusion](#conclusion)
 
 ### <a name = "dictionaries"></a>Data Dictionaries
+
 #### <a name = "alcohol_dictionary"></a>Data Dictionary for alcohol variable
 My numerical variable is the life expectancy and the categorical is a five levels variable, this is, the alcohol consumption (in liters) divided into 5 ranges:
 
@@ -37,6 +38,7 @@ My numerical variable is the life expectancy and the categorical is a five level
 | >=10   <15 | Alcohol consumption between 10 and 15 litters
 | >=15   <20 | Alcohol consumption between 15 and 20 litters
 | >=20   <25 | Alcohol consumption between 20 and 25 litters
+
 
 #### <a name = "life_dictionary"></a>Data Dictionary for life expectancy variable
 
@@ -51,7 +53,7 @@ Test the hypothesis about alcohol consumption and life expectancy Specifically, 
 My response variable is categorical with 2 levels. That is, life expectancy greater than or less than the mean (calculated) of all countries in gapmind data set.
 
 ####  <a name = "nullh"></a>Null hypothesis:
-No there is association between life expectancy and alcohol consumption
+No there is association between life expectancy and alcohol consumption.
 
 ###  <a name = "contingency1"></a>contingency table
 ```python
@@ -63,6 +65,7 @@ print (tabulate(ct1,tablefmt="pipe",
                     headers=headers_alcohol))
 ```
 Section [203] on [this](notebook)
+
 | life/alcool   |   >=0 <5 |   >=5 <10 |   >=10 <15 |   >=15 <20 |   >=20 <25 |
 |:--------------|---------:|----------:|-----------:|-----------:|-----------:|
 | <=69          |       44 |        20 |          4 |          3 |          0 |
@@ -71,6 +74,7 @@ Section [203] on [this](notebook)
 Examining these column percents for those with life expectancy (greater or less than mean) we see that as alcohol consumption (from 5) until 15 liters per year increase, the life expectancy also increase.
 
 ###  <a name = "graph1"></a>Graph of percentages
+
 ![percentage](/images/percentage1.png)
 
 The analysis of this graph without other analysis (like the frequencies), maybe can lead an error. It seems to show that the most country with the life expectancy greater than the mean are those that alcohol consumption is in the range between 20 and 25 liters.
@@ -97,6 +101,7 @@ print (tabulate([results.values()], tablefmt="fancy_grid",
                 headers=[i for i in results.keys()]))
 ```
 Code in section [205] [on this notebook](notebook)
+
 |   chi-square |     p-value |   df |
 |-------------:|------------:|-----:|
 |      20.5031 | 0.000397211 |    4 |
@@ -141,6 +146,7 @@ print (tabulate(results, tablefmt="fancy_grid",
                 headers=['groups', 'chi-square', 'p-value', 'df', 'h0 reject'] ))
 ```
 Code in section [206] [on this notebook](notebook)
+
 | groups                   |   chi-square |     p-value |   df | h0 reject   |
 |:-------------------------|-------------:|------------:|-----:|:------------|
 | ('>=0 <5', '>=5 <10')    |   5.53236    | 0.0186679   |    1 | no          |
