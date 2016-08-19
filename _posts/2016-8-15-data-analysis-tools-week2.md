@@ -79,7 +79,7 @@ Examining these column percents for those with life expectancy (greater or less 
 
 ###  <a name = "graph1"></a>Graph of percentages
 
-![percentage](/images/percentage1.png)
+![percentages](/images/percentage1.png)
 
 The analysis of this graph without other analysis (like the frequencies), maybe can lead an error. It seems to show that the most country with the life expectancy greater than the mean are those that alcohol consumption is in the range between 20 and 25 liters.
 
@@ -88,7 +88,9 @@ The analysis of this graph without other analysis (like the frequencies), maybe 
 Is easy to see the equivocal examining the [contigency table](#contingency1), on the column of category >=20 <25 we can verify that only one observation was collected.
 To help, even more, this issue, I used the countplot seaborn function, that is "A special case for the bar plot is when you want to show the number of observations in each category rather than computing a statistic for a second variable. This is similar to a histogram over a categorical, rather than quantitative, variable.",
  [Se here](https://stanford.edu/~mwaskom/software/seaborn/tutorial/categorical.html).
+
 ![percentage](/images/countplot1.png)
+
 On this graph is easy to see that only 1 observation was realized in the column >=20 <=25.
 
 ###  <a name = "chi2"></a>Chi-Square
