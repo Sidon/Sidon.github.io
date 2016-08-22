@@ -27,6 +27,7 @@ made a summary bellow:
 |Alcohol      |Response Varialbe: Alcohol Consumption (2)|
 
 (1) 2008 alcohol consumption per adult (liters, age 15+)
+
 (2) 2011 life expectancy at birth (years)
 
 ### <a name = "correlation"></a>Correlation Coeficient
@@ -37,7 +38,7 @@ r1 = scipy.stats.pearsonr(data1['life'], data1['alcohol'])
 r1 = list(r1)
 r1.insert(2,r1[0]*r1[0])
 print (tabulate([r1], tablefmt="fancy_grid",
-                headers=['Correlation coefficient', 'P-value', 'r²'] ))
+        headers=['Correlation coefficient', 'P-value', 'r²'] ))
 ```
 
 |   Correlation coefficient |     P-value |        r² |
@@ -45,6 +46,8 @@ print (tabulate([r1], tablefmt="fancy_grid",
 |                  0.312994 | 2.34203e-05 | 0.0979652 |
 
 The correlation is approximately 0.31 with a very small p-value, this indicates that the relationship is not statistically significant.
+
+The code for this table can seeing in section [2] on [this jupyter notebok](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw3.ipynb)
 
 ###  <a name = "scatter"></a> Scatter Plot:
 
@@ -62,7 +65,7 @@ plt.show()
 ```
 ![Scatter plot](/images/scatter2.png)
 
-The code for this graph can seeing in section [xx] on [this jupyter notebok](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw3.ipynb)
+The code for this graph can seeing in section [3] on [this jupyter notebok](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw3.ipynb)
 
 ### <a name = "conclusion"></a>Conclusion
 Based on the results of the the Pearson Correlation, we can say that there is not a correlation between Life Expectancy and Alcohol consumption.
