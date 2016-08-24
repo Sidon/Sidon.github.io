@@ -45,7 +45,9 @@ print (tabulate([r1], tablefmt="fancy_grid",
 |--------------------------:|------------:|----------:|
 |                  0.312994 | 2.34203e-05 | 0.0979652 |
 
-The correlation is approximately 0.31 with a very small p-value, this indicates that the relationship is not statistically significant.
+The correlation is approximately 0.31 with a very small p-value, this indicates
+that the relationship is statistically significant, but the linear correlation
+between alcohol consumption and life expectancy is very weak.
 
 The code for this table can seeing in section [2] on [this jupyter notebok](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw3.ipynb)
 
@@ -68,7 +70,11 @@ plt.show()
 The code for this graph can seeing in section [3] on [this jupyter notebok](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw3.ipynb)
 
 ### <a name = "conclusion"></a>Conclusion
-Based on the results of the the Pearson Correlation, we can say that there is not a correlation between Life Expectancy and Alcohol consumption.
+Although the [correlation calculus](#correlation) shows a p-value<0.05 that
+means to reject the null hypothesis (which says there is no correlation) and
+accept the alternative hypothesis (which says there is a correlation),
+indicating a statistical significance. The r value of 0.312994 shows a very
+modest positive linear correlation between alcohol consumption and life expectancy.
 
 See the entire code for this week  [here](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw3.ipynb
   ).
