@@ -19,8 +19,15 @@ between two constructs for different subgroups within the sample.
 
 ### Index
 + [Variables](#variables)
-+ [Correlation Coeficient](#correlation)
-+ [Scatter Plot](#scatter)
++ [Question](#question)
++ [Creating Categorical Variables](#Categorical)
++ [Categorical Variables](#Categorical)
+  +[Means](#means)
++ [Analysis of Variance ANOVA](#anova)
+  +[Income less than the mean](#anova2)
+  +[Income greater than the mean](#anova3)
++ [Means for each level of income](#means2)
++ [Graphs for means](#graphs)
 + [Conclusion](#conclusion)
 + [Entire code](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw3.ipynb)
 
@@ -46,20 +53,21 @@ I made a summary bellow:
 The income level effect direction or strength of the relationship between
 alcohol consumption and life expectancy?
 
-### <a name = "categorical"></a>Creating Categorical Variables
+### <a name = "creating"></a>Creating Categorical Variables
 originally, my variables are all numeric, that is, "life" is expressed in the number of years, "alcohol" is expressed in the number of liters and "income" in dollars. For this assignment the only variables that i keep
 numeric is the "life", alcohol and income will be converted in categorical based in means.
 
-### <a name = "means"></a>Means
+#### <a name = "means"></a>Means
 
 Means
+
 |   alcohol |   income |
 |----------:|---------:|
 |   6.78409 |  7006.36 |
 
 The code for this table can be seeing in section [2] on [this jupyter notebok](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw4.ipynb)
 
-###  <a name = "categorical"></a> Categorical variables:
+####  <a name = "categorical"></a> Categorical variables:
 
 The code for creation this variables can be seeing in section [2][3], [this jupyter notebok](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw4.ipynb), bellow I show the output for dtypes:
 
@@ -86,7 +94,7 @@ ANOVA results for income less than the mean (US$ 7006)
 
 This results of ANOVA shows a smal F-Value and a not significant P-value,
 
-#### <a name = "anova2"></a>Anova for income greater than the mean
+#### <a name = "anova3"></a>Anova for income greater than the mean
 
 ANOVA results for income greater than the mean (US$ 7006)
 
@@ -99,7 +107,7 @@ In this case, the results show an f-value a little greater and a significant p-v
 The code for this table can be seeing in section [5] on [this jupyter notebok](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw4.ipynb)
 
 
-### <a name = "means"></a>Means for each level of income
+### <a name = "means2"></a>Means for each level of income
 
 Means for life expectancy by alcohol consumption > 6.78 (mean of alcohol consumption) vs. alcohol consumption < 6.78 for income <  7006 (mean of income in dollars).
 
@@ -126,8 +134,7 @@ The code for this table can be seeing in section [6][7] on [this jupyter notebok
 ### <a name = "conclusion"></a>Conclusion
 
 The results of the Analise of variances shows that in the level of income less than the mean (7006 dollars) the income level not affects the direction or strength of the relationship between alcohol consumption and life expectancy, In the other hand, in the income levels greater than the mean, this affects the life expectancy when the alcohol consumption is greater than the mean, greater is the life expectancy.
-Is need to note that the this not a scientific work and the data can lead an erroneous interpretation.
-
+***Is need to note that this is not a scientific work and the data can lead an erroneous interpretation.***
 
 See the entire code for this week  [here](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw4.ipynb
   ).
