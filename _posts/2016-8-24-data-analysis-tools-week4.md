@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Data Analysis Tools - Week4 | Exploring Statistical Interactions
-published: false
+published: true
 ---
 
 This is the fourth assignment or the second course (of five)
@@ -15,8 +15,9 @@ The fourth assignment deals with testing a potential moderator. When testing a
 potential moderator, we are asking the question whether there is an association
 between two constructs for different subgroups within the sample.
 
-***In name of clarity I opted, in this assignment, by not show the code fragments, but, instead, show the section on [this notebok](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw3.ipynb).***
+***In name of clarity I opted, in this assignment, by not show the code fragments, but, instead, show the sections on [this notebok](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw3.ipynb).***
 
+### Index
 + [Variables](#variables)
 + [Correlation Coeficient](#correlation)
 + [Scatter Plot](#scatter)
@@ -46,9 +47,8 @@ The income level effect direction or strength of the relationship between
 alcohol consumption and life expectancy?
 
 ### <a name = "categorical"></a>Creating Categorical Variables
-originally, my variables are all numeric, that is, 'life' is expressed in the number of years, "alcohol' is expressed in the number of liters and "income" in the number of dollars. For this assignment the only variables that i keep
-numeric is the "life", alcohol and income will be converted in categorical
-based in means.
+originally, my variables are all numeric, that is, "life" is expressed in the number of years, "alcohol" is expressed in the number of liters and "income" in dollars. For this assignment the only variables that i keep
+numeric is the "life", alcohol and income will be converted in categorical based in means.
 
 ### <a name = "means"></a>Means
 Means
@@ -60,7 +60,7 @@ The code for this table can be seeing in section [2] on [this jupyter notebok](h
 
 ###  <a name = "categorical"></a> Categorical variables:
 
-The code for creation this variables can be seeing in section [N], [this jupyter notebok](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw4.ipynb), bellow I show the output for dtypes:
+The code for creation this variables can be seeing in section [2][3], [this jupyter notebok](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw4.ipynb), bellow I show the output for dtypes:
 
 |variable|Type|
 |--------|----|
@@ -91,11 +91,28 @@ ANOVA results for income greater than the mean (US$ 7006)
 |----------:|------------:|
 |   13.0789 | 0.000794359 |
 
-The code for this table can be seeing in section [2] on [this jupyter notebok](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw4.ipynb)
+In this case, the results show an f-value a little greater and a significant p-value.
+
+The code for this table can be seeing in section [5] on [this jupyter notebok](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw4.ipynb)
 
 
 ### <a name = "means"></a>Means for each level of income
 
+Means for life expectancy by alcohol consumption > 6.78 (mean of alcohol consumption) vs. alcohol consumption < 6.78 for income <  7006 (mean of income in dollars).
+
+| alcohol   |    life |
+|:----------|--------:|
+| <=6.8     | 65.2091 |
+| >6.8      | 68.2592 |
+
+Means for life expectancy by alcohol consumption > 6.78 (mean of alcohol consumption) vs. alcohol consumption < 6.78 for income >  7006 (mean of income in dollars).
+
+| alcohol   |    life |
+|:----------|--------:|
+| <=6.8     | 74.6213 |
+| >6.8      | 79.9717 |
+
+The code for this table can be seeing in section [6][7] on [this jupyter notebok](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw4.ipynb)
 
 ### <a name = "graphs"></a>Graphs for means
 
@@ -103,13 +120,10 @@ The code for this table can be seeing in section [2] on [this jupyter notebok](h
 
 ![means0](/images/mean_income1.png)
 
-
 ### <a name = "conclusion"></a>Conclusion
-Although the [correlation calculus](#correlation) shows a p-value<0.05 that
-means to reject the null hypothesis (which says there is no correlation) and
-accept the alternative hypothesis (which says there is a correlation),
-indicating a statistical significance. The r value of 0.312994 shows a very
-modest positive linear correlation between alcohol consumption and life expectancy.
+The results of the Analise of variances shows that in the level of income less than the mean (7006 dollars) the income level not affects the direction or strength of the relationship between alcohol consumption and life expectancy, In the other hand, in the income levels greater than the mean, this affects the life expectancy when the alcohol consumption is greater than the mean, greater is the life expectancy.
+Is need to note that the this not a scientific work and the data can lead an erroneous interpretation.
 
-See the entire code for this week  [here](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw3.ipynb
+
+See the entire code for this week  [here](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/tools-submitw4.ipynb
   ).
