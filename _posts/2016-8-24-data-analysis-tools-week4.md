@@ -51,6 +51,7 @@ originally, my variables are all numeric, that is, "life" is expressed in the nu
 numeric is the "life", alcohol and income will be converted in categorical based in means.
 
 ### <a name = "means"></a>Means
+
 Means
 |   alcohol |   income |
 |----------:|---------:|
@@ -78,6 +79,7 @@ greater than the mean)
 #### <a name = "anova2"></a>Anova for income less than the mean
 
 ANOVA results for income less than the mean (US$ 7006)
+
 |   F-Value |   P-value |
 |----------:|----------:|
 |   3.37363 | 0.0686231 |
@@ -87,6 +89,7 @@ This results of ANOVA shows a smal F-Value and a not significant P-value,
 #### <a name = "anova2"></a>Anova for income greater than the mean
 
 ANOVA results for income greater than the mean (US$ 7006)
+
 |   F-Value |     P-value |
 |----------:|------------:|
 |   13.0789 | 0.000794359 |
