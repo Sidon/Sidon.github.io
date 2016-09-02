@@ -124,6 +124,7 @@ The code for this table can be seeing in section [6][7] on [this jupyter notebok
 ![means0](/images/mean_income1.png)
 
 ### <a name = "conclusion"></a>Conclusion
+
 The results of the Analise of variances shows that in the level of income less than the mean (7006 dollars) the income level not affects the direction or strength of the relationship between alcohol consumption and life expectancy, In the other hand, in the income levels greater than the mean, this affects the life expectancy when the alcohol consumption is greater than the mean, greater is the life expectancy.
 Is need to note that the this not a scientific work and the data can lead an erroneous interpretation.
 
