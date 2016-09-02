@@ -50,7 +50,7 @@ I made a summary bellow:
 (3) 2010 Gross Domestic Product per capita in constant 2000 US$"
 
 ### <a name = "question"></a>Question
-The income level effect direction or strength of the relationship between
+The income level affect direction or strength of the relationship between
 alcohol consumption and life expectancy?
 
 ### <a name = "creating"></a>Creating Categorical Variables
