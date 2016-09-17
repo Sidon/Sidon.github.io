@@ -10,8 +10,6 @@ This is the first assignment or the third course (of five)
 detailed information about it can be seeing
 [here](https://www.coursera.org/learn/data-visualization#).
 
-asdgfvasfasfasfas  safasfafas
-
 ## Assignment 4:
 The third assignment deals with how write about data ("one of the
 most important skills of data-analysis").
@@ -22,6 +20,8 @@ most important skills of data-analysis").
 + [Life](#life)
 + [Alcohol](#alcohol)
 + [Conclusion](#conclusion)
+
+kkkkk
 
 ### <a name = "variables"></a>Variables
 
