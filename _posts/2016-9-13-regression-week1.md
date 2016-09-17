@@ -17,8 +17,11 @@ most important skills of data-analysis").
 ### Index
 + [Variables](#variables)
 + [Income](#income)
+  + [Sample and procedure](#sample1)
 + [Life](#life)
+  + [Sample and procedure](#sample2)
 + [Alcohol](#alcohol)
+  + [Sample and procedure](#sample3)
 + [Conclusion](#conclusion)
 
 ### <a name = "variables"></a>Variables
@@ -43,7 +46,7 @@ Details of my project can be seeing
 GDP is published in a country’s National Accounts. These statistics comply to protocols laid down in the 1993 version of the Systems of National Accounts, SNA93.
 The GDP calculation methodology can be seen [here](http://www.geostat.ge/cms/site_images/_files/english/methodology/GDP%20Brief%20Methodology%20ENG.pdf)
 
-#### Sample and procedure
+#### <a name = "sample1">Sample and procedure
 [The primary World Bank collection of development indicators](http://data.worldbank.org/data-catalog/world-development-indicators), compiled from officially-recognized international sources. It presents the most current and accurate global development data available, and includes national, regional and global estimates.
 Type: Time Series, Periodicity: Annual  This study: 2010, Number of countries: 246
 
@@ -51,7 +54,7 @@ Type: Time Series, Periodicity: Annual  This study: 2010, Number of countries: 2
 The data was provided mainly, by [Human Mortality Database] (http://www.mortality.org/)
 The Human Mortality Database (HMD) was created to provide detailed mortality and population data to researchers, students, journalists, policy analysts, and others interested in the history of human longevity. The project began as an outgrowth of earlier projects in the Department of Demography at the University of California, Berkeley, USA, and at the Max Planck Institute for Demographic Research in Rostock, Germany (see history). It is the work of two teams of researchers in the USA and Germany (see research teams), with the help of financial backers and scientific collaborators from around the world (see acknowledgements). The French Institute for Demographic Studies (INED) has also supported the further development of the database in recent years.
 
-#### Sample and procedure
+#### <a name = "sample2">Sample and procedure
 The Human Mortality Database (HMD) contains uniform death rates and life tables (e.g., life expectancy) for various populations. It also includes the original raw data (i.e., births, deaths, census counts or official population estimates) from which they were derived. For a detailed description about methods and data about data,
 see [here](http://www.mortality.org/Public/Docs/MP-Summary.pdf) and
 [here](http://www.mortality.org/Public/Docs/MP-Summary.pdf)
@@ -62,7 +65,7 @@ see [here](http://www.mortality.org/Public/Docs/MP-Summary.pdf) and
 In this work, the data are from 2008 and refer to  alcohol consumption per adult (age 15+), litres Recorded and estimated average alcohol consumption, adult (15+) per capita consumption in litres pure alcohol, this database were provided by [World Health Organization] (http://www.who.int/en/) through the Global status report on alcohol and health. This report presents a comprehensive perspective on the global, regional and country consumption of alcohol, patterns of
 drinking, health consequences and policy responses in Member States. It represents a continuing effort by the World Health Organization (WHO) to support Member States in collecting information in order to assist them in their efforts to reduce the harmful use of alcohol, and its health and social consequences.
 
-#### Sample and procedure
+#### <a name = "sample3">Sample and procedure
 The Global status report on alcohol and health have 286 page, the description about data sources and the methodology can be seen in approximately ten pages (Appendix IV. pg. 279
 Data sources and methods) [on this pdf]
  (http://www.who.int/substance_abuse/publications/global_alcohol_report/msbgsruprofiles.pdf)
