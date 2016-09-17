@@ -71,6 +71,7 @@ Data sources and methods) [on this pdf]
 
 ### <a name = "conclusion"></a>Conclusion
 
+
 My code book was prepared  from [GapMinder](https://d396qusza40orc.cloudfront.net/phoenixassets/data-management-visualization/GapMinder%20Codebook%20.pdf), the data that I chose are provided from various sources,
 some of them provided by governments of countries,
 in the case of GPD (income per person), unfortunately, was not possible to found some information that could make this work richer.
