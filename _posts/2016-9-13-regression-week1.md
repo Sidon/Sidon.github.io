@@ -21,8 +21,6 @@ most important skills of data-analysis").
 + [Alcohol](#alcohol)
 + [Conclusion](#conclusion)
 
-kkkkk
-
 ### <a name = "variables"></a>Variables
 
 Details of my project can be seeing

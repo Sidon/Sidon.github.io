@@ -1,0 +1,12 @@
+GDP
+The Gross Domestic Product (GDP) of an economy is a measure of total production. More precisely, it is the monetary value of all goods and services produced within a country or region in a specific time period. While the definition of GDP is straightforward, accurately measuring it is a surprisingly difficult undertaking. Moreover, any attempts to make comparisons over time and across borders are complicated by price, quality and currency differences. https://ourworldindata.org/gdp-data/
+
+
+Sample
+GDP is published in a country’s National Accounts. These statistics comply to protocols laid down in the 1993 version of the Systems of National Accounts, SNA93.
+
+The primary World Bank collection of development indicators, compiled from officially-recognized international sources. It presents the most current and accurate global development data available, and includes national, regional and global estimates.
+Type: Time Series, Periodicity: Annual  This study: 2010
+
+
+The data of 246 country
