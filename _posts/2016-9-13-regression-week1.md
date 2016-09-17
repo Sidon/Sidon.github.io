@@ -10,6 +10,8 @@ This is the first assignment or the third course (of five)
 detailed information about it can be seeing
 [here](https://www.coursera.org/learn/data-visualization#).
 
+asdgfvasfasfasfas  safasfafas
+
 ## Assignment 4:
 The third assignment deals with how write about data ("one of the
 most important skills of data-analysis").
@@ -24,8 +26,7 @@ most important skills of data-analysis").
 ### <a name = "variables"></a>Variables
 
 Details of my project can be seeing
-[here](https://sidon.github.io/data-visualization-week1/), to get easier,
-I made a summary bellow:
+[here](https://sidon.github.io/data-visualization-week1/), to get easier,I made a summary bellow:
 
 |Variable Name|Description|
 |-------------|-----------|
