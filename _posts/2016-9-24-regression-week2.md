@@ -28,7 +28,7 @@ Details of my project can be seeing
 
 (2) 2011 life expectancy at birth (years)
 
-### <a name = "center"></a>Center the Explanatory Varialbe
+### <a name = "center"></a>Center the Explanatory Variable
 Though my explanatory variable is quantitative, there is much observation around
 zero value, even so,  I center it to attend the requisites. the code bellow shows
 the procedure, first I calculated the mean  and then a new variable (income_center)
