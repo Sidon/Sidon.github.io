@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Regression Modeling in Practice - Week1 | Introduction to Regression Interactions
+title: Regression Modeling in Practice - Week2 | Basics of Linear Regression
 published: true
 ---
 
