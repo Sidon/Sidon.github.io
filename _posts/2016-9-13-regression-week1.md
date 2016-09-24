@@ -8,10 +8,6 @@ This is the first assignment or the third course (of five)
 [Data Analysis and Interpretation Specialization](https://www.coursera.org/specializations/data-analysis)
 detailed information about it can be seeing [here](https://www.coursera.org/learn/data-visualization#).
 
-## Assignment 4:
-The third assignment deals with how write about data ("one of the
-most important skills of data-analysis").
-
 ### Index
 + [Variables](#variables)
 + [Income](#income)
