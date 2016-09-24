@@ -56,6 +56,7 @@ print (tabulate([measures], tablefmt='grid', headers='keys'))
 
 This table shows the measures, Mean is the original mean and the center is the new mean, other measures (min and max of center, min and max of life) was calculated for help in graph plot.
 
+For see the code,  [click here](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/bregession-w2-2.ipynb).
 
 ### <a name = "summary">Summary
 
@@ -106,9 +107,11 @@ variance in the response variable that can be explained by the Explanatory
 variable), indicating that this model accounts for about 36% of the variability
 we see in response variable, life.
 
+For see the code,  [click here](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/bregession-w2-2.ipynb).
+
 ### <a name = "plot">graph
 
 ![plot](/images/joinplot1.png)
 
 
-See the entire code for this week  [here](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/bregession-w2-2.ipynb).
+See the entire code for this week,  [here](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/bregession-w2-2.ipynb).
