@@ -33,6 +33,7 @@ Though my explanatory variable is quantitative, there is much observation around
 zero value, even so,  I center it to attend the requisites. the code bellow shows
 the procedure, first I calculated the mean  and then a new variable (income_center)
 that represents the new values for var "income", now with new mean.
+
 ```python
 # Measures for center and graph
 measures = OrderedDict()
@@ -50,6 +51,7 @@ measures['Max life'] = data1.life.max()
 # Table shows measures
 print (tabulate([measures], tablefmt='grid', headers='keys'))
 ```
+
 |    Mean |      Center |     cMin |    cMax |   Min life |   Max life |
 |--------:|------------:|---------:|--------:|-----------:|-----------:|
 | 7327.44 | -1.1007e-12 | -7223.67 | 44974.1 |     47.794 |     83.394 |
