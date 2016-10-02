@@ -11,8 +11,7 @@ detailed information about it can be seeing [here](https://www.coursera.org/lear
 ### Index
 + [Variables](#variables)
 + [Sumary of OLS Results](#summary)
-+ [Support for hypothesis](#suport)
-+ [Summary](#summary)
++ [Support for hypothesis](#support)
 + [Evidence of confounding variable](#evidence)
 + [Regression Diagnostic](#diag)
   + [Qq Ploting](#plot)
