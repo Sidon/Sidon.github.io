@@ -12,7 +12,7 @@ detailed information about it can be seeing [here](https://www.coursera.org/lear
 + [Variables](#variables)
 + [Sumary of OLS Results](#summary)
   + [Support for hypothesis](#support)
-  + [Odds Ratio](#odds)
+  + [Odds Ratio and Confidence intervals](#odds)
 + [Addin income variable](#add1)
   + [ New Summary OLS results](#new)
 + [Evidence of confounding variable](#evidence)
@@ -47,7 +47,7 @@ The regression is significant at a P value of less than 0.0001 (highlighted in r
 #### <a name = "support"></a>Support hypothesis
 Before we analyse the Odds ratio, we can conclude, through these initial results, that socioeconomic have a direct correlation with the level of alcohol consumption of a country. Then, we can reject the null hypothesis.
 
-#### <a name = "odds"></a>Odds Ratio
+#### <a name = "odds"></a>Odds Ratio and Confidence intervals
 
 ```python
 params = lreg1.params
