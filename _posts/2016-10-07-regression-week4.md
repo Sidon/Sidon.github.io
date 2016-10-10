@@ -17,7 +17,7 @@ detailed information about it can be seeing [here](https://www.coursera.org/lear
   + [ New Summary OLS results](#new)
 + [Evidence of confounding variable](#evidence)
 + [OLS Output](#output)  
-* [Ceritificate](#certificate)
++ [Ceritificate](https://www.coursera.org/account/accomplishments/certificate/EL67GXA7CXJ3)
 
 ### <a name = "variables"></a>Variables
 
