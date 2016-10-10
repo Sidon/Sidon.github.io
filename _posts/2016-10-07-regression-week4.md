@@ -4,7 +4,7 @@ title: Regression Modeling in Practice - Week4 | Logistic Regression
 published: true
 ---
 
-This is the fourth assignment or the third course (of five)
+This is the fourth assignment of the third course (of five)
 [Data Analysis and Interpretation Specialization](https://www.coursera.org/specializations/data-analysis)
 detailed information about it can be seeing [here](https://www.coursera.org/learn/data-visualization#).
 
