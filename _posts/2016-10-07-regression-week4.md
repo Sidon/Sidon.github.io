@@ -6,7 +6,7 @@ published: true
 
 This is the fourth assignment of the third course (of five)
 [Data Analysis and Interpretation Specialization](https://www.coursera.org/specializations/data-analysis)
-detailed information about it can be seeing [here](https://www.coursera.org/learn/data-visualization#).
+detailed information about it can be seeing [here](https://www.coursera.org/learn/regression-modeling-practice).
 
 ### Index
 + [Variables](#variables)
