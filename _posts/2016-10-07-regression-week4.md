@@ -17,6 +17,7 @@ detailed information about it can be seeing [here](https://www.coursera.org/lear
   + [ New Summary OLS results](#new)
 + [Evidence of confounding variable](#evidence)
 + [OLS Output](#output)  
+* [Ceritificate](#certificate)
 
 ### <a name = "variables"></a>Variables
 
@@ -77,3 +78,9 @@ Looking at the news results is possible to note that the inclusion of the new va
 
 ### <a name = "output"></a>Output of OLS.
 See the entire code and output for this week,  [here](https://github.com/Sidon/Sidon.github.io/blob/master/_posts/bregession-w4.ipynb).
+
+### <a name = "certificate"></a>Certificate
+[Regression Modeling in Practice.
+Completed by Sidon Cleo Duarte on October 9, 2016.
+Wesleyan University
+Share Only Course Certificate.](https://www.coursera.org/account/accomplishments/certificate/EL67GXA7CXJ3)
