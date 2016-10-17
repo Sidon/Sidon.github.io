@@ -11,3 +11,4 @@ I'm a Brasil based Software Developer, Big Data Addict, and eternal student crea
 ### Contact me
 
 [sidoncd@gmail.com](mailto:sidoncd@gmail.com)
+[Personal Site](http://www.sidon.net.br)
