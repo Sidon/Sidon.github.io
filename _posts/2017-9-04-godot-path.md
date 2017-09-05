@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Primeiros passos com Godot
-published: false
+published: true
 ---
 
 ## Brincando com Godot
