@@ -170,7 +170,7 @@ arrastar a figura que queremos para representar o sprit, para dentro dele.
 Agora, é necessário definir a rotação do sprit, pode-se atribuir atravésa da propriedade rot da paleta Node2D (painel
 a direita), ou clicando em "rotate mode", na barra de botões e encontrar a rotação manualmente. 
 
-![Projeto interpath](/images/criando-sprit1.png) 
+![Projeto interpath](/images/tela-final-rot.png) 
 
 
   
