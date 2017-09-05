@@ -133,7 +133,7 @@ Em seguida esticamos a figura do circuito para que fique assim:
 
 Agora criaremos um nó filho de Path2D do tipo Patfollow2D e mudamos o nome para Follow1
 
-![Projeto interpath](/images/criando-path-2.png)
+![Projeto interpath](/images/criando-path2.png)
 
 O próximo passo é selecionar Path2D e criar o caminho sobre o mapa utilizando o conjunto de 5 botões para manipulação
 de pontos, com esses botoes podemos adicionar, selecionar, excluir e manipular posicoes e inclinações dos pontos, 
@@ -142,14 +142,14 @@ de pontos nos trechos onde as curvas são mais acentuadas. Não utilizamos, ness
 O ultimo ponto deve ficar próximo do primeiro, sem toca-lo.
 
 
-![Projeto interpath](/images/criando-path-3.png)
+![Projeto interpath](/images/criando-path3.png)
 
 Em seguida psicionamos o cursor no nome do node sprite do traçado do circuito (interlagos) e o excluimos com a tecla
 delete para, sem a figura, fica mais fácil perceber caso tenhamos cometido algum erro e colocado pontos a mais, 
 nesse caso é só usar os botões para manipulação dos pontos e fazer os ajustes finais.
 Após a retirada da imagem e dos ajustes finais a cena deve ficar mais ou menos assim:
 
-![Projeto interpath](/images/criando-path-4.png)
+![Projeto interpath](/images/criando-path4.png)
 
 O próximo passo é só clicar no botão "close curve", para o circuito ser fechado. Agora é uma boa hora para salvar a 
 cena, menu no extremo esquerdo superior "scene/save as"
