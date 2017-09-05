@@ -3,8 +3,6 @@ layout: post
 title: Primeiros passos com Godot
 published: true
 ---
-
-## Brincando com Godot
 Ao tentar aprender um pouco de desenvolvimento de jogos, me deparei com Godot, "uma Avançada engine de jogos open 
 source, multiplataforma, 2D e 3D". O produto tem como filosofia, oferecer um grande número de ferramentas para que
 o usuário possa focar em construir o game, sem "reinventar a roda".
@@ -151,14 +149,28 @@ Após a retirada da imagem e dos ajustes finais a cena deve ficar mais ou menos 
 
 ![Projeto interpath](/images/criando-path4.png)
 
-O próximo passo é só clicar no botão "close curve", para o circuito ser fechado. Agora é uma boa hora para salvar a 
+O próximo passo é clicar no botão "close curve", para o circuito ser fechado. Agora é uma boa hora para salvar a 
 cena, menu no extremo esquerdo superior "scene/save as"
 
+Agora vamos adicionar nosso personagem principal, um node do tipo sprit, o sprit utilizado aqui é uma figura de 
+[Opengameart.org](https://opengameart.org/), como a figura já foi copiada para a pastas de imagens, agora basta
+arrasta-la para dentro do retangulo que representa o node Follow1, este retangulo aparece quando selecionamos 
+o node (painel do lado direito)
+
+Selecionando o node
+
+![Projeto interpath](/images/selecionando-node.png)
  
+Após seleciona-lo, o retangulo que o representa deverá aparecer no ponto em que se iniciou o circuito, então é só 
+arrastar a figura que queremos para representar o sprit, para dentro dele.
+
+![Projeto interpath](/images/criando-sprit1.png) 
 
 
+Agora, é necessário definir a rotação do sprit, pode-se atribuir atravésa da propriedade rot da paleta Node2D (painel
+a direita), ou clicando em "rotate mode", na barra de botões e encontrar a rotação manualmente. 
 
- 
+![Projeto interpath](/images/criando-sprit1.png) 
 
 
   
