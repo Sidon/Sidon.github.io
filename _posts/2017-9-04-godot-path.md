@@ -12,8 +12,8 @@ Hoje parece ser unanimidade produzir tutoriais em forma de vídeo. Quando estou 
 tecnologia/plataforma nova, sempre prefiro iniciar por tutoriais escritos, vídeos, para mim, tem um problema que não
 consigo contornar, muitas vezes, os videos de iniciação são carregados de trechos extremamentes básicos entremeados
 por informações importantes para quem é iniciante, então, muitas vezes somos obrigados a ver coisas entendiantes, ou 
-arriscar avançar o video e perder informações importantes, por isso prefiro material escrito, geralmente procuro
-tutorias na documentação do produto e acabo reproduzindo e/ou adpatando, como estou fazendo aqui.
+arriscar avançar o video e perder informações importantes, por isso prefiro material escrito. Geralmente procuro
+tutoriais na documentação do produto e acabo reproduzindo e/ou adpatando, como estou fazendo aqui.
 
 ## O "Arcabouço" de Godot
 Uma interessante metáfora é criada na documentação da engine para explicar o recurso central de Godot que são os 
@@ -33,8 +33,8 @@ cozinha os nodes são como um refrigerador cheio de ingredientes.
  * Pode ser extendido.
  * Pode ser adicionado a outros nodes.
  
- A última, talvez seja a mais importante característica, nodes podem ter outros nodes 'filhos', quando arrajados dessa
- maneira, se torna arvores.
+ A última, talvez seja a mais importante característica, nodes podem ter outros nodes 'filhos', quando arranjados dessa
+ maneira, se tornam arvores.
    
 ![nodes](/images/nodes_tree.png)
   
@@ -55,7 +55,7 @@ edição de cenas 2D e 3D.
 ## Passeando no cirtuito de interlagos.
 Para iniciar meus estudos com Godot, decidi não seguir os tutoriais e vídeos tradicionais que sempre consomem um bom 
 tempo explicando o layout da interface, que, na minha opinião, é mais fácil aprender "tateando" o próprio produto ou, 
-ainda mais eficiente, consultando a documentação. Dessa forma meu primeiro objetivo é criar um um path imitando o cirtuito
+ainda mais eficiente, consultando a documentação. Dessa forma meu primeiro objetivo é criar um path imitando o cirtuito
 de interlagos e colocar a figura de um carro F1 'passeando' sobre ele.
 
 Nesse primeiro post, vou fazer o mais básico possível, ou seja, adicionar apenas uma cena com um nó para 'traçar' o 
@@ -72,11 +72,11 @@ Tem como nó 'pai', sempre um Path2D e retorna as coordenadas de um ponto dentro
 primeiro vetor.
 
 É util para fazer outros nodes seguirem um caminho, sem a necessidade de codificar o padrão do movimento. Para isso
-os nodes precisam ser descendente do mesmo. Nodes descendente se moverão de acordo com o offset.
+os nodes precisam ser descendentes do mesmo. Nodes descendente se moverão de acordo com o offset.
 
 #### Sprite
 Como "filho" de PathFollow2D, vamos colocar um node do tipo Sprite, nodes do tipo sprite no Godot, são o que podemos
-chamar de "personagem", no caso será a figura de um carro F1
+chamar de "personagem", no caso será a figura de um carro F1.
 
 
 ## Criando um novo projeto
