@@ -189,7 +189,12 @@ func _process(delta):
 	follow.set_offset(follow.get_offset() + speed * delta)
 ```
 
-Para adicionálo, é só selecionar o node Path2D e clicar no botão localizado no extremo superior direito do painel 
+Para adicioná-lo, é só selecionar o node Path2D e clicar no botão localizado no extremo superior direito do painel 
 de nodes.
 
 ![Projeto interpath](/images/script1.png) 
+
+
+### Resultado final
+
+<iframe width="1425" height="592" src="https://www.youtube.com/embed/-N1O3KrkSGA" frameborder="0" allowfullscreen></iframe>
