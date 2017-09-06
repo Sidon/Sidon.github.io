@@ -197,4 +197,4 @@ de nodes.
 
 ### Resultado final
 
-<iframe width="700" height="592" src="https://www.youtube.com/embed/-N1O3KrkSGA" frameborder="0" allowfullscreen></iframe>
+<iframe width="720" height="391" src="https://www.youtube.com/embed/-N1O3KrkSGA" frameborder="0" allowfullscreen></iframe>
