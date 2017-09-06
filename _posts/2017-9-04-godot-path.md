@@ -197,4 +197,9 @@ de nodes.
 
 ### Resultado final
 
+A título de teste a imagem utilizada para o traçado do circuito foi adicionado ao node Path2D, o resultado é que o circuito
+ficou sobre o carro. 
+<iframe width="720" height="391" src="https://www.youtube.com/embed/K6vkngCtap0" frameborder="0" allowfullscreen></iframe>
+
+Nessa opção a imagem do circuito foi retirada.
 <iframe width="720" height="391" src="https://www.youtube.com/embed/-N1O3KrkSGA" frameborder="0" allowfullscreen></iframe>
