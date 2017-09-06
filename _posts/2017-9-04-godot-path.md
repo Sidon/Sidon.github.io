@@ -83,7 +83,7 @@ chamar de "personagem", no caso será a figura de um carro F1
 
 Antes de iniciar vamos criar uma estrutura de pastas para o projeto, 
 
-```{r, engine='bash', count_lines}
+```bash
 mkdir ~/interpath
 mkdir ~/interpath/imagens
 ```
@@ -164,7 +164,7 @@ Selecionando o node
 Após seleciona-lo, o retangulo que o representa deverá aparecer no ponto em que se iniciou o circuito, então é só 
 arrastar a figura que queremos para representar o sprit, para dentro dele.
 
-![Projeto interpath](/images/criando-sprit1.png) 
+![Projeto interpath](/images/criando-sprite1.png) 
 
 
 Agora, é necessário definir a rotação do sprit, pode-se atribuir atravésa da propriedade rot da paleta Node2D (painel
@@ -173,4 +173,23 @@ a direita), ou clicando em "rotate mode", na barra de botões e encontrar a rota
 ![Projeto interpath](/images/tela-final-rot.png) 
 
 
-  
+### Scripting:
+Para fazermos o sprite se mover é necessário um pequeno script:
+
+
+```bash
+extends Path2D
+onready var follow = get_node("Follow1")
+var speed=100
+
+func _ready():
+	set_process(true)
+	
+func _process(delta):
+	follow.set_offset(follow.get_offset() + speed * delta)
+```
+
+Para adicionálo, é só selecionar o node Path2D e clicar no botão localizado no extremo superior direito do painel 
+de nodes.
+
+![Projeto interpath](/images/script1.png) 
