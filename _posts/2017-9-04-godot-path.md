@@ -15,7 +15,7 @@ por informações importantes para quem é iniciante, então, muitas vezes somos
 arriscar avançar o video e perder informações importantes, por isso prefiro material escrito. Geralmente procuro
 tutoriais na documentação do produto e acabo reproduzindo e/ou adpatando, como estou fazendo aqui.
 
-## O "Nó" de Godot
+## O "Núcleo" de Godot
 Uma interessante metáfora é criada na documentação da engine para explicar o recurso central de Godot que são os 
 nodes, a metáfora faz alusão um chef de cozinha. Um chef cria receitas e essas são divididas em duas partes: A primeira
 é o conjunto de ingredientes e a segunda engloba as instruções para o preparo, permitindo que qualquer pessoa possa
@@ -35,7 +35,8 @@ cozinha os nodes são como um refrigerador cheio de ingredientes.
  
  A última, talvez seja a mais importante característica, nodes podem ter outros nodes 'filhos', quando arranjados dessa
  maneira, se tornam arvores.
-   
+ 
+
 ![nodes](/images/nodes_tree.png)
   
 ### Scenes
@@ -193,7 +194,6 @@ Para adicioná-lo, é só selecionar o node Path2D e clicar no botão localizado
 de nodes.
 
 ![Projeto interpath](/images/script1.png) 
-
 
 ### Resultado final
 A título de teste a imagem utilizada para o traçado do circuito foi adicionado ao node Path2D, o resultado é que o circuito
