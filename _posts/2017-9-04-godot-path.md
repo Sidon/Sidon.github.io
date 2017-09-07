@@ -15,7 +15,7 @@ por informações importantes para quem é iniciante, então, muitas vezes somos
 arriscar avançar o video e perder informações importantes, por isso prefiro material escrito. Geralmente procuro
 tutoriais na documentação do produto e acabo reproduzindo e/ou adpatando, como estou fazendo aqui.
 
-## O "Arcabouço" de Godot
+## O "Nó" de Godot
 Uma interessante metáfora é criada na documentação da engine para explicar o recurso central de Godot que são os 
 nodes, a metáfora faz alusão um chef de cozinha. Um chef cria receitas e essas são divididas em duas partes: A primeira
 é o conjunto de ingredientes e a segunda engloba as instruções para o preparo, permitindo que qualquer pessoa possa
